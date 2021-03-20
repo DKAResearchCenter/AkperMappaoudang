@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../Sdk/Sdk/icons/material/materialicons/widgets/baseline_widgets_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../Sdk/Sdk/icons/material/materialicons/remove_red_eye/baseline_remove_red_eye_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,7 +33,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_widgets_24" />
+                            <entry key="outputName" value="ic_baseline_remove_red_eye_24" />
                             <entry key="sourceFile" value="D:\Bhayangkara" />
                           </map>
                         </option>
