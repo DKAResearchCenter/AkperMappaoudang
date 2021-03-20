@@ -1,4 +1,5 @@
 /JS/node_modules/
+/JS/yarn.lock
 /ANDROID/.gradle/
 /ANDROID/.idea/
 /.idea/
