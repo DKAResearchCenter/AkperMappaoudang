@@ -10,8 +10,8 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Bhayangkara">
         <meta-data
-                android:name="preloaded_fonts"
-                android:resource="@array/preloaded_fonts"/>
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity android:name="dka.product.akper.splashScreen"
                   android:theme="@style/Theme.Bhayangkara">
