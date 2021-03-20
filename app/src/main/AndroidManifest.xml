@@ -24,10 +24,10 @@
         <activity android:name="dka.product.akper.MainActivity"
             android:theme="@style/Theme.Bhayangkara"/>
 
-        <activity android:name="dka.product.akper.pmbOnline"
+        <activity android:name="dka.product.akper.view.Features.pmbOnline"
             android:theme="@style/Theme.Bhayangkara"/>
 
-        <activity android:name="dka.product.akper.cctvActivity"
+        <activity android:name="dka.product.akper.view.Features.cctvActivity"
             android:theme="@style/Theme.Bhayangkara"/>
 
     </application>

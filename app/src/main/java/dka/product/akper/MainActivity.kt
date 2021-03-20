@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import dka.product.akper.databinding.UiActivityBerandaBinding
+import dka.product.akper.view.Features.cctvActivity
+import dka.product.akper.view.Features.pmbOnline
 
 class MainActivity:AppCompatActivity() {
 
