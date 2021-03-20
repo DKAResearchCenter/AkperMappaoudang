@@ -1,0 +1,9 @@
+{
+  "name": "akper_mappaoudang",
+  "version": "1.0.0",
+  "description": "Aplikasi Akademis Keperawatan",
+  "main": "index.js",
+  "author": "Yovangga anandhika",
+  "license": "MIT",
+  "private": true
+}
