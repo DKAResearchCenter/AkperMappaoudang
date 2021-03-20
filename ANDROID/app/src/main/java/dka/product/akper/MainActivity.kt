@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mbinding = DataBindingUtil.setContentView(this, R.layout.ui_activity_beranda)
+        mbinding =
+            DataBindingUtil.setContentView(this, R.layout.ui_activity_beranda_fragmen_beranda)
 
         mbinding.let {
             it.pmbonline.setOnClickListener {
