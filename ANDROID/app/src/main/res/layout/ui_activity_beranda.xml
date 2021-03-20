@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primarycolor"
+            tools:ignore="VectorDrawableCompat">
+
+        <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="false">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RelativeLayout
+                        android:id="@+id/msosmedheader"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                    <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="false"
+                            android:layout_centerVertical="true"
+                            android:gravity="right"
+                            android:paddingRight="15dp"
+                            android:text="Kunjungi Kami Di"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="false"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="horizontal"
+                            android:weightSum="10">
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="3.8"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/instagram_logo"/>
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="4.2"
+                                android:padding="5dp"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/facebook_logo"/>
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="3"
+                                android:padding="3dp"
+                                app:srcCompat="@drawable/twitter_logo"/>
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.7"
+                                android:padding="4dp"
+                                app:srcCompat="@drawable/youtube_logo"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/mBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cardview1">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp">
+
+                        <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                            <LinearLayout
+                                    android:id="@+id/mControllLayout"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:orientation="horizontal">
+
+                                <ImageButton
+                                        android:id="@+id/mcctvbutton"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_weight="1"
+                                        android:background="@null"
+                                        android:scaleType="centerInside"
+                                        android:tint="@color/white"
+                                        app:srcCompat="@drawable/ic_baseline_videocam_24"
+                                        tools:ignore="VectorDrawableCompat"/>
+
+                                <ImageButton
+                                        android:id="@+id/imageButton3"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:layout_weight="1"
+                                        android:background="@null"
+                                        android:tint="@color/white"
+                                        app:srcCompat="@drawable/ic_outline_dehaze_24"
+                                        tools:ignore="VectorDrawableCompat"/>
+                            </LinearLayout>
+
+                            <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toLeftOf="@id/mControllLayout"
+                                    app:cardBackgroundColor="@color/white"
+                                    app:cardCornerRadius="10dp"
+                                    app:cardElevation="0dp"
+                                    app:contentPadding="10dp">
+
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Cari Sesuatu Disini"/>
+                            </androidx.cardview.widget.CardView>
+                        </RelativeLayout>
+
+                        <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"/>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:layout_marginRight="15dp"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                            <TextView
+                                    android:id="@+id/mText1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alfa_slab_one"
+                                    android:text="Selamat Datang !!!"
+                                    android:textColor="@color/white"
+                                    android:textSize="18sp"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alfa_slab_one"
+                                    android:text="Diaplikasi Bhayangkara"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:orientation="vertical"
+                    >
+
+                        <com.denzcoskun.imageslider.ImageSlider
+                                android:layout_width="match_parent"
+                                android:layout_height="170dp">
+
+                        </com.denzcoskun.imageslider.ImageSlider>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                <androidx.cardview.widget.CardView
+                                        android:id="@+id/pmbonline"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:padding="10dp"
+                                        app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+                                    <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center|center_horizontal"
+                                            android:text="PMB Online"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"/>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="10dp"/>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:padding="10dp"
+                                        app:cardBackgroundColor="@android:color/holo_purple">
+
+                                    <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center|center_horizontal"
+                                            android:text="E-Learning"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"/>
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:padding="10dp"
+                                        app:cardBackgroundColor="@color/teal_700">
+
+                                    <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center|center_horizontal"
+                                            android:text="Mahasiswa"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"/>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="10dp"/>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:padding="10dp"
+                                        app:cardBackgroundColor="@android:color/holo_orange_dark">
+
+                                    <TextView
+                                            android:id="@+id/textView4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center|center_horizontal"
+                                            android:text="Brosur"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold"/>
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Program Terbaik"
+                                    android:textColor="@color/secondarycolor"
+                                    android:textSize="24sp"
+                                    android:textStyle="bold"/>
+
+                            <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@null"
+                                    android:tint="@color/secondarycolor"
+                                    app:srcCompat="@drawable/ic_baseline_arrow_forward_24"
+                                    tools:ignore="VectorDrawableCompat"/>
+                        </LinearLayout>
+
+                        <HorizontalScrollView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scrollbarSize="0dp">
+
+                            <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingLeft="20dp"
+                                    android:paddingTop="5dp"
+                                    android:paddingRight="5dp"
+                                    android:paddingBottom="5dp">
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        app:cardBackgroundColor="@color/secondarycolor"
+                                        app:cardCornerRadius="10dp"
+                                        app:cardElevation="10dp"
+                                        app:contentPadding="10dp">
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:scaleType="centerCrop"
+                                                app:srcCompat="@drawable/pendaftaran"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="5dp"
+                                                android:text="Pendaftaran"
+                                                android:textColor="@color/white"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="4dp"
+                                                android:text="Pendaftaran Jadi lebih mudah bagi calon mahasiswa baru"
+                                                android:textColor="@color/white"/>
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        app:cardBackgroundColor="@color/secondarycolor"
+                                        app:cardCornerRadius="10dp"
+                                        app:cardElevation="10dp"
+                                        app:contentPadding="10dp">
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:scaleType="centerCrop"
+                                                app:srcCompat="@drawable/pendaftaran"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="5dp"
+                                                android:text="Pendaftaran"
+                                                android:textColor="@color/white"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="4dp"
+                                                android:text="Pendaftaran Jadi lebih mudah bagi calon mahasiswa baru"
+                                                android:textColor="@color/white"/>
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        app:cardBackgroundColor="@color/secondarycolor"
+                                        app:cardCornerRadius="10dp"
+                                        app:cardElevation="10dp"
+                                        app:contentPadding="10dp">
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:scaleType="centerCrop"
+                                                app:srcCompat="@drawable/pendaftaran"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="5dp"
+                                                android:text="Pendaftaran"
+                                                android:textColor="@color/white"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="4dp"
+                                                android:text="Pendaftaran Jadi lebih mudah bagi calon mahasiswa baru"
+                                                android:textColor="@color/white"/>
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        app:cardBackgroundColor="@color/secondarycolor"
+                                        app:cardCornerRadius="10dp"
+                                        app:cardElevation="10dp"
+                                        app:contentPadding="10dp">
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:scaleType="centerCrop"
+                                                app:srcCompat="@drawable/pendaftaran"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="5dp"
+                                                android:text="Pendaftaran"
+                                                android:textColor="@color/white"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="4dp"
+                                                android:text="Pendaftaran Jadi lebih mudah bagi calon mahasiswa baru"
+                                                android:textColor="@color/white"/>
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                        <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"/>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                            <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Album Kegiatan"
+                                    android:textColor="@color/secondarycolor"
+                                    android:textSize="24sp"
+                                    android:textStyle="bold"/>
+
+                            <ImageButton
+                                    android:id="@+id/imageButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@null"
+                                    android:tint="@color/secondarycolor"
+                                    app:srcCompat="@drawable/ic_baseline_arrow_forward_24"
+                                    tools:ignore="VectorDrawableCompat"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="280dp"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+                                android:weightSum="3">
+
+                            <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/pendaftaran"/>
+
+                            <Space
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                <ImageView
+                                        android:id="@+id/imageView4"
+                                        android:layout_width="200dp"
+                                        android:layout_height="wrap_content"
+                                        android:scaleType="centerCrop"
+                                        app:srcCompat="@drawable/pendaftaran"/>
+
+                                <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="15dp"/>
+
+                                <LinearLayout
+                                        android:layout_width="200dp"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal"
+                                        android:weightSum="3">
+
+                                    <ImageView
+                                            android:id="@+id/imageView5"
+                                            android:layout_width="95dp"
+                                            android:layout_height="wrap_content"
+                                            android:scaleType="centerCrop"
+                                            app:srcCompat="@drawable/pendaftaran"/>
+
+                                    <Space
+                                            android:layout_width="10dp"
+                                            android:layout_height="match_parent"/>
+
+                                    <ImageView
+                                            android:id="@+id/imageView3"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:scaleType="centerCrop"
+                                            app:srcCompat="@drawable/pendaftaran"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/thirdcolor"
+
+                        >
+
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                            >
+
+                                <TextView
+                                        android:id="@+id/mLaporan"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="16dp"
+                                        android:text="Seputar Akper"
+                                        android:textColor="@color/secondarycolor"
+                                        android:textSize="24sp"
+                                        android:textStyle="bold"
+                                        tools:visibility="gone"/>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="10dp"
+                                        app:cardCornerRadius="4dp"
+                                        app:cardElevation="15dp"
+                                        tools:visibility="gone">
+
+                                    <HorizontalScrollView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:fadeScrollbars="false"
+                                            android:scrollbars="none">
+
+                                        <LinearLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center_horizontal"
+                                                android:background="#FFF"
+                                                android:gravity="center_horizontal"
+                                                android:orientation="horizontal"
+                                                android:padding="4dp">
+
+                                            <androidx.cardview.widget.CardView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="4dp"
+                                                    app:cardCornerRadius="8dp">
+
+                                                <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_margin="5dp"
+                                                        android:orientation="vertical">
+
+                                                    <ImageView
+                                                            android:layout_width="100dp"
+                                                            android:layout_height="90dp"
+                                                            android:scaleType="center"
+                                                            app:srcCompat="@drawable/placeholder"/>
+
+                                                    <TextView
+                                                            android:id="@+id/textView19"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_marginTop="2dp"
+                                                            android:text="Penebangan Pohon"
+                                                            android:textSize="10sp"/>
+
+                                                    <TextView
+                                                            android:id="@+id/textView20"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="0"
+                                                            android:text="Secara Liar"
+                                                            android:textSize="10sp"/>
+                                                </LinearLayout>
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                    android:layout_width="8dp"
+                                                    android:layout_height="match_parent"/>
+
+                                            <androidx.cardview.widget.CardView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="4dp"
+                                                    app:cardCornerRadius="8dp">
+
+                                                <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_margin="5dp"
+                                                        android:orientation="vertical">
+
+                                                    <ImageView
+                                                            android:layout_width="100dp"
+                                                            android:layout_height="90dp"
+                                                            android:scaleType="center"
+                                                            app:srcCompat="@drawable/placeholder"/>
+
+                                                    <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_marginTop="2dp"
+                                                            android:text="Penebangan Pohon"
+                                                            android:textSize="10sp"/>
+
+                                                    <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="0"
+                                                            android:text="Secara Liar"
+                                                            android:textSize="10sp"/>
+                                                </LinearLayout>
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                    android:layout_width="8dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"/>
+
+                                            <androidx.cardview.widget.CardView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="4dp"
+                                                    app:cardCornerRadius="8dp">
+
+                                                <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_margin="5dp"
+                                                        android:orientation="vertical">
+
+                                                    <ImageView
+                                                            android:id="@+id/mgambar3"
+                                                            android:layout_width="100dp"
+                                                            android:layout_height="90dp"
+                                                            android:scaleType="center"
+                                                            app:srcCompat="@drawable/placeholder"/>
+
+                                                    <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_marginTop="2dp"
+                                                            android:text="Penebangan Pohon"
+                                                            android:textSize="10sp"/>
+
+                                                    <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="0"
+                                                            android:text="Secara Liar"
+                                                            android:textSize="10sp"/>
+                                                </LinearLayout>
+                                            </androidx.cardview.widget.CardView>
+
+                                        </LinearLayout>
+                                    </HorizontalScrollView>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:text="Kabar Terbaru"
+                                        android:textColor="@color/secondarycolor"
+                                        android:textSize="24sp"
+                                        android:textStyle="bold"/>
+
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:padding="4dp"
+                                        app:cardCornerRadius="4dp"
+                                        app:cardElevation="15dp">
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:paddingBottom="4dp">
+
+                                        <ImageView
+                                                android:id="@+id/mgambar"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="180dp"
+                                                android:layout_margin="5dp"
+                                                android:scaleType="fitXY"
+                                                app:srcCompat="@drawable/placeholder"/>
+
+                                        <TextView
+                                                android:id="@+id/textView13"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="8dp"
+                                                android:layout_marginLeft="8dp"
+                                                android:layout_marginEnd="8dp"
+                                                android:layout_marginRight="8dp"
+                                                android:text="Terjadi Kebakaran Disebuah Pasar"
+                                                android:textSize="16sp"
+                                                android:textStyle="bold"/>
+
+                                        <TextView
+                                                android:id="@+id/textView14"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="8dp"
+                                                android:layout_marginLeft="8dp"
+                                                android:layout_marginEnd="8dp"
+                                                android:layout_marginRight="8dp"
+                                                android:text="Karena Adanya Hubungan Pendek Arus Listrik"
+                                                android:textSize="12sp"/>
+
+                                        <TextView
+                                                android:id="@+id/textView16"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="right"
+                                                android:layout_marginEnd="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:gravity="right"
+                                                android:text="30 Menit Yang Lalu"
+                                                android:textSize="10sp"/>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                        android:id="@+id/textView11"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:text="Berita Hangat"
+                                        android:textColor="@color/secondarycolor"
+                                        android:textSize="24sp"
+                                        android:textStyle="bold"/>
+
+                                <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:background="@color/white"
+                                        android:orientation="horizontal"
+                                        android:padding="10dp">
+
+                                    <ImageView
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"
+                                            android:scaleType="centerCrop"
+                                            app:srcCompat="@drawable/pelatihan_sampul"/>
+
+                                    <Space
+                                            android:layout_width="5dp"
+                                            android:layout_height="match_parent"/>
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:maxLines="2"
+                                                android:text="Pelatihan Penanganan Gawat Darurat Dan Search And Rescue (SAR)"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold"/>
+
+                                        <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="5dp"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginEnd="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:text="8 Jam Yang Lalu"
+                                                android:textSize="10sp"/>
+
+                                        <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:maxLines="3"
+                                                android:text="MAKASSAR- Akademi Keperawatan (Akper) Mappa Oudang Makassar menggelar pelatihan penanggulangan bencana dan SAR dasar, Sabtu-Minggu (9-10/9/2017). Kegiatan ini berlangsung di Hutan Tabo Tabo Kabupaten Pangkep dan diikuti sekitar 120 peserta."
+                                                android:textSize="10sp"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="10dp"/>
+
+                                <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:background="@color/white"
+                                        android:orientation="horizontal"
+                                        android:padding="10dp">
+
+                                    <ImageView
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"
+                                            android:scaleType="centerCrop"
+                                            app:srcCompat="@drawable/pelatihan_sampul"/>
+
+                                    <Space
+                                            android:layout_width="5dp"
+                                            android:layout_height="match_parent"/>
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:maxLines="2"
+                                                android:text="Pelatihan Penanganan Gawat Darurat Dan Search And Rescue (SAR)"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold"/>
+
+                                        <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="5dp"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginEnd="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:text="8 Jam Yang Lalu"
+                                                android:textSize="10sp"/>
+
+                                        <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:maxLines="3"
+                                                android:text="MAKASSAR- Akademi Keperawatan (Akper) Mappa Oudang Makassar menggelar pelatihan penanggulangan bencana dan SAR dasar, Sabtu-Minggu (9-10/9/2017). Kegiatan ini berlangsung di Hutan Tabo Tabo Kabupaten Pangkep dan diikuti sekitar 120 peserta."
+                                                android:textSize="10sp"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="10dp"/>
+
+                                <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:background="@color/white"
+                                        android:orientation="horizontal"
+                                        android:padding="10dp">
+
+                                    <ImageView
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"
+                                            android:scaleType="centerCrop"
+                                            app:srcCompat="@drawable/pelatihan_sampul"/>
+
+                                    <Space
+                                            android:layout_width="5dp"
+                                            android:layout_height="match_parent"/>
+
+                                    <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:maxLines="2"
+                                                android:text="Pelatihan Penanganan Gawat Darurat Dan Search And Rescue (SAR)"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold"/>
+
+                                        <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="5dp"/>
+
+                                        <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginEnd="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:text="8 Jam Yang Lalu"
+                                                android:textSize="10sp"/>
+
+                                        <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:maxLines="3"
+                                                android:text="MAKASSAR- Akademi Keperawatan (Akper) Mappa Oudang Makassar menggelar pelatihan penanggulangan bencana dan SAR dasar, Sabtu-Minggu (9-10/9/2017). Kegiatan ini berlangsung di Hutan Tabo Tabo Kabupaten Pangkep dan diikuti sekitar 120 peserta."
+                                                android:textSize="10sp"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="10dp"/>
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</layout>
