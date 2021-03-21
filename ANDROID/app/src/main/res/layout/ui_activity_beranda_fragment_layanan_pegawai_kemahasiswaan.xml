@@ -118,7 +118,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Layanan Kemahasiswaan"
+                android:text="Layanan Rektor"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
@@ -131,6 +131,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
                 app:columnCount="2"
                 app:useDefaultMargins="true">
 
@@ -138,6 +140,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
+                    app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
                     <LinearLayout
@@ -149,7 +152,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:tint="@color/secondarycolor"
+                            android:tint="@color/white"
                             app:srcCompat="@drawable/ic_baseline_videocam_24" />
 
                         <TextView
@@ -157,7 +160,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="CCTV"
-                            android:textColor="@color/secondarycolor" />
+                            android:textColor="@color/white" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -166,6 +169,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
+                    app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
                     <LinearLayout
@@ -177,7 +181,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="105dp"
-                            android:tint="@color/secondarycolor"
+                            android:tint="@color/white"
                             app:srcCompat="@drawable/ic_baseline_article_24" />
 
                         <TextView
@@ -185,7 +189,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="JADWAL"
-                            android:textColor="@color/secondarycolor" />
+                            android:textColor="@color/white" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -194,6 +198,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
+                    app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
                     <LinearLayout
@@ -205,7 +210,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:tint="@color/secondarycolor"
+                            android:tint="@color/white"
                             app:srcCompat="@drawable/ic_baseline_person_24"
                             tools:ignore="UseAppTint,VectorDrawableCompat" />
 
@@ -214,7 +219,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="MAHASISWA"
-                            android:textColor="@color/secondarycolor" />
+                            android:textColor="@color/white" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -223,6 +228,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
+                    app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
                     <LinearLayout
@@ -234,7 +240,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:tint="@color/secondarycolor"
+                            android:tint="@color/white"
                             app:srcCompat="@drawable/ic_baseline_location_on_24" />
 
                         <TextView
@@ -242,7 +248,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="LOKASI"
-                            android:textColor="@color/secondarycolor" />
+                            android:textColor="@color/white" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
