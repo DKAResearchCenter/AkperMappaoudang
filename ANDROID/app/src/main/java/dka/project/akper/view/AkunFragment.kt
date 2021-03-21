@@ -11,11 +11,7 @@ class AkunFragment : Fragment() {
 
     private lateinit var mbinding: UiActivityBerandaFragmentAkunBinding
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         mbinding = UiActivityBerandaFragmentAkunBinding.inflate(inflater, container, false)
 
         return mbinding.root
