@@ -1,4 +1,4 @@
-package dka.product.akper
+package dka.project.akper
 
 import org.junit.Test
 

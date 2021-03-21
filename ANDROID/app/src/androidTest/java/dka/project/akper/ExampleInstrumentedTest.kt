@@ -1,4 +1,4 @@
-package dka.product.akper
+package dka.project.akper
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

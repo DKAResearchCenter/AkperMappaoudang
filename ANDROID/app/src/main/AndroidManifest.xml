@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="dka.product.akper">
+          package="dka.project.akper">
 
     <application
             android:allowBackup="true"
@@ -13,7 +13,7 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name="dka.product.akper.splashScreen"
+        <activity android:name="dka.project.akper.splashScreen"
                   android:theme="@style/Theme.Bhayangkara">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -21,13 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="dka.product.akper.MainActivity"
-                  android:theme="@style/Theme.Bhayangkara"/>
-
-        <activity android:name="dka.product.akper.view.Features.pmbOnline"
-                  android:theme="@style/Theme.Bhayangkara"/>
-
-        <activity android:name="dka.product.akper.view.Features.cctvActivity"
+        <activity android:name="dka.project.akper.MainActivity"
                   android:theme="@style/Theme.Bhayangkara"/>
 
     </application>

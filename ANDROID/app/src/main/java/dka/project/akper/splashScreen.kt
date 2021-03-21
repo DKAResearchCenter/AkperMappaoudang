@@ -1,11 +1,11 @@
-package dka.product.akper
+package dka.project.akper
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import dka.product.akper.databinding.UiActivitySplashscreenBinding
+import dka.project.akper.databinding.UiActivitySplashscreenBinding
 
 class splashScreen : AppCompatActivity() {
 
