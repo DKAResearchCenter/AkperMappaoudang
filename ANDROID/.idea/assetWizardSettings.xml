@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../Sdk/Sdk/icons/material/materialicons/widgets/baseline_widgets_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/person/baseline_person_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_widgets_24" />
-                            <entry key="sourceFile" value="D:\Bhayangkara" />
+                            <entry key="outputName" value="ic_baseline_person_24" />
+                            <entry key="sourceFile" value="/D:\Bhayangkara" />
                           </map>
                         </option>
                       </PersistentState>
