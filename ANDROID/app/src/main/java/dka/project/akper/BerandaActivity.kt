@@ -11,6 +11,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dka.project.akper.databinding.UiActivityBerandaFragmentBinding
 import dka.project.akper.view.BerandaFragment
+import dka.project.akper.view.NotificationFragment
 
 class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -41,7 +42,7 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
                 false
             }
             R.id.mnotif -> {
-                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, BerandaFragment()).commit()
+                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, NotificationFragment()).commit()
                 false
             }
             R.id.mlayanan -> {
