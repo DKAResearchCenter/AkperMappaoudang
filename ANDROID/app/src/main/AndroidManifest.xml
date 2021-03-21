@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="dka.project.akper.MainActivity"
+        <activity android:name="dka.project.akper.BerandaActivity"
                   android:theme="@style/Theme.Bhayangkara"/>
 
     </application>
