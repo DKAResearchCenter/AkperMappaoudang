@@ -37,15 +37,24 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
             R.id.mBeranda -> {
-                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, BerandaFragment()).commit()
+                mSupportFragment
+                    .beginTransaction()
+                    .replace(mBinding.mFrameContent.id, BerandaFragment())
+                    .commit()
                 false
             }
             R.id.mnotif -> {
-                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, NotificationFragment()).commit()
+                mSupportFragment
+                    .beginTransaction()
+                    .replace(mBinding.mFrameContent.id, NotificationFragment())
+                    .commit()
                 false
             }
             R.id.mlayanan -> {
-                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, LayananFragment()).commit()
+                mSupportFragment
+                    .beginTransaction()
+                    .replace(mBinding.mFrameContent.id, LayananFragment())
+                    .commit()
                 false
             }
             R.id.maboutus -> {
