@@ -3,6 +3,8 @@
     <color name="primarycolor">#F0E0C8</color>
     <color name="secondarycolor">#73572E</color>
     <color name="thirdcolor">#F0D095</color>
+
+    <color name="dividerColor">#F6F4F4</color>
     <color name="fontcolor">#F2E2BD</color>
     <color name="color1">#FB02D1</color>
     <color name="purple_200">#FFBB86FC</color>
