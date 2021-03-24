@@ -20,74 +20,88 @@
                     android:orientation="vertical">
 
                 <RelativeLayout
-                        android:id="@+id/msosmedheader"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp">
+                    android:id="@+id/msosmedheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp">
 
                     <LinearLayout
+                        android:id="@+id/msosmed"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_alignParentRight="false"
                         android:layout_marginStart="15dp"
                         android:layout_marginLeft="15dp"
                         android:orientation="horizontal"
-                        android:padding="5dp"
-                        android:weightSum="10">
+                        android:padding="5dp">
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/instagram_logo" />
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
                             android:padding="5dp"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/facebook_logo" />
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
                             android:padding="3dp"
                             app:srcCompat="@drawable/twitter_logo" />
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
                             android:padding="4dp"
                             app:srcCompat="@drawable/youtube_logo" />
 
                         <ImageView
                             android:id="@+id/imageView10"
-                            android:layout_width="40dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
                             app:srcCompat="@drawable/whatsapp_logo_1" />
 
-                        <Space
-                            android:layout_width="70dp"
-                            android:layout_height="wrap_content" />
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="80dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            app:cardBackgroundColor="@color/secondarycolor"
+                            app:cardCornerRadius="10dp">
 
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:padding="4dp"
-                            app:srcCompat="@drawable/logoindonesia" />
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:padding="4dp"
-                            app:srcCompat="@drawable/inggris" />
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="LOGIN"
+                                android:textColor="@color/white" />
+                        </androidx.cardview.widget.CardView>
 
                     </LinearLayout>
+
                 </RelativeLayout>
 
                 <RelativeLayout
