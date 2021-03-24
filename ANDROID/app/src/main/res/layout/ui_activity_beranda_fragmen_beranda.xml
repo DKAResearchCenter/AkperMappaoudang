@@ -251,20 +251,33 @@
                             <androidx.cardview.widget.CardView
                                 android:id="@+id/pmbonline"
                                 android:layout_width="match_parent"
-                                android:layout_height="40dp"
+                                android:layout_height="wrap_content"
                                 android:layout_weight="5"
                                 android:padding="10dp"
-                                app:cardBackgroundColor="@android:color/holo_blue_dark"
+                                app:cardBackgroundColor="@color/secondarycolor"
                                 app:cardCornerRadius="5dp">
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center|center_horizontal"
-                                    android:text="PMB Online"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp"
-                                    android:textStyle="bold" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/ic_edit" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="PMB Online"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
@@ -274,21 +287,33 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="match_parent"
-                                android:layout_height="40dp"
+                                android:layout_height="match_parent"
                                 android:layout_weight="5"
                                 android:padding="10dp"
-                                app:cardBackgroundColor="@android:color/holo_orange_dark"
+                                app:cardBackgroundColor="@color/secondarycolor"
                                 app:cardCornerRadius="5dp">
 
-                                <TextView
-                                    android:id="@+id/textView4"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center|center_horizontal"
-                                    android:text="Brosur"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp"
-                                    android:textStyle="bold" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/ic_brochure" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="Brosur"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
@@ -298,20 +323,33 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="match_parent"
-                                android:layout_height="40dp"
+                                android:layout_height="match_parent"
                                 android:layout_weight="5"
                                 android:padding="10dp"
-                                app:cardBackgroundColor="@color/teal_700"
+                                app:cardBackgroundColor="@color/secondarycolor"
                                 app:cardCornerRadius="5dp">
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center|center_horizontal"
-                                    android:text="Pengumuman"
-                                    android:textColor="@color/white"
-                                    android:textSize="12sp"
-                                    android:textStyle="bold" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/ic_promotion" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="Pengumuman"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
@@ -321,20 +359,33 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="match_parent"
-                                android:layout_height="40dp"
+                                android:layout_height="match_parent"
                                 android:layout_weight="5"
                                 android:padding="10dp"
-                                app:cardBackgroundColor="@android:color/holo_purple"
+                                app:cardBackgroundColor="@color/secondarycolor"
                                 app:cardCornerRadius="5dp">
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center|center_horizontal"
-                                    android:text="E-Learning"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp"
-                                    android:textStyle="bold" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="5dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/ic_education" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="E-Learning"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
