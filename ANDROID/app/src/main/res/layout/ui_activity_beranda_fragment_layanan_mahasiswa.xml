@@ -139,9 +139,9 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
@@ -149,6 +149,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         android:orientation="vertical"
                         android:padding="10dp"
                         android:weightSum="2">
@@ -178,9 +184,9 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
@@ -188,6 +194,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_margin="10dp"
                         android:orientation="vertical"
                         android:padding="10dp"
                         android:weightSum="2">
@@ -217,9 +224,9 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
@@ -227,6 +234,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_margin="10dp"
                         android:orientation="vertical"
                         android:padding="10dp"
                         android:weightSum="2">
@@ -256,9 +264,9 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
@@ -266,6 +274,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_margin="10dp"
                         android:orientation="vertical"
                         android:padding="10dp"
                         android:weightSum="2">
@@ -295,9 +304,9 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
@@ -305,6 +314,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_margin="10dp"
                         android:orientation="vertical"
                         android:padding="10dp"
                         android:weightSum="2">
@@ -334,9 +344,9 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="20dp">
 
@@ -344,6 +354,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_margin="10dp"
                         android:orientation="vertical"
                         android:padding="10dp"
                         android:weightSum="2">
@@ -366,6 +377,86 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="Organisasi"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/secondarycolor"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@null"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ic_baseline_article_24"
+                            app:tint="@color/white"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Kurikulum"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/secondarycolor"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@null"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ic_baseline_article_24"
+                            app:tint="@color/white"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Jadwal"
                             android:textColor="@color/white"
                             android:textSize="10sp"
                             android:textStyle="bold" />
