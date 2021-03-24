@@ -6,7 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import dka.project.akper.R
+import dka.project.akper.BrosurActivity
+import dka.project.akper.ELearningActivity
+import dka.project.akper.PMBOnlineActivity
+import dka.project.akper.PengumumanActivity
 import dka.project.akper.databinding.UiActivityBerandaFragmenBerandaBinding
 
 class BerandaFragment : Fragment() {
@@ -23,28 +26,28 @@ class BerandaFragment : Fragment() {
             it.pmbonline.setOnClickListener() {
                 i = Intent(
                     requireActivity(),
-                    R.layout.ui_activity_beranda_fragment_beranda_fitur_pmbonline::class.java
+                    PMBOnlineActivity::class.java
                 )
                 startActivity(i)
             }
             it.mbrosur.setOnClickListener() {
                 i = Intent(
                     requireActivity(),
-                    R.layout.ui_activity_beranda_fragment_beranda_fitur_brosur::class.java
+                    BrosurActivity::class.java
                 )
                 startActivity(i)
             }
             it.mpengumuman.setOnClickListener() {
                 i = Intent(
                     requireActivity(),
-                    R.layout.ui_activity_beranda_fragmen_beranda_fitur_pengumuman::class.java
+                    PengumumanActivity::class.java
                 )
                 startActivity(i)
             }
             it.melearning.setOnClickListener() {
                 i = Intent(
                     requireActivity(),
-                    R.layout.ui_activity_beranda_fragmen_beranda_fitur_elearning::class.java
+                    ELearningActivity::class.java
                 )
                 startActivity(i)
             }
