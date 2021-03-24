@@ -286,6 +286,7 @@
                                 android:layout_height="10dp" />
 
                             <androidx.cardview.widget.CardView
+                                android:id="@+id/mbrosur"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="5"
@@ -322,6 +323,7 @@
                                 android:layout_height="10dp" />
 
                             <androidx.cardview.widget.CardView
+                                android:id="@+id/mpengumuman"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="5"
@@ -358,6 +360,7 @@
                                 android:layout_height="10dp" />
 
                             <androidx.cardview.widget.CardView
+                                android:id="@+id/melearning"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="5"
