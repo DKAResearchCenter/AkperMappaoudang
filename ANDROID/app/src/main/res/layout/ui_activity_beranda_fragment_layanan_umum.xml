@@ -118,7 +118,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Layanan Rektor"
+                android:fontFamily="@font/amaranth"
+                android:text="Layanan Umum"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
@@ -127,8 +128,9 @@
                 android:layout_height="20dp" />
 
             <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginEnd="20dp"
@@ -146,14 +148,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:tint="@color/white"
-                            app:srcCompat="@drawable/ic_baseline_videocam_24" />
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_security_camera" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -175,14 +177,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="105dp"
-                            android:tint="@color/white"
-                            app:srcCompat="@drawable/ic_baseline_article_24" />
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_schedule" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -204,14 +206,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:tint="@color/white"
-                            app:srcCompat="@drawable/ic_baseline_person_24"
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_student"
                             tools:ignore="UseAppTint,VectorDrawableCompat" />
 
                         <TextView
@@ -234,14 +236,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:tint="@color/white"
-                            app:srcCompat="@drawable/ic_baseline_location_on_24" />
+                            android:padding="20dp"
+                            app:srcCompat="@drawable/ic_pin" />
 
                         <TextView
                             android:layout_width="wrap_content"
