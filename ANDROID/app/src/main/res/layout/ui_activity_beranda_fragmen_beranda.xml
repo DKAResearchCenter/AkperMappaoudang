@@ -86,7 +86,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="3dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_weight="10"
+                        android:layout_weight="5"
                         app:cardBackgroundColor="@color/secondarycolor"
                         app:cardCornerRadius="10dp">
 
@@ -97,7 +97,8 @@
                             android:paddingLeft="10dp"
                             android:paddingRight="10dp"
                             android:text="LOGIN"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
@@ -170,6 +171,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
+                                android:layout_weight="1"
                                 app:srcCompat="@drawable/logo" />
 
                             <LinearLayout
@@ -180,6 +182,7 @@
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginEnd="15dp"
                                 android:layout_marginRight="15dp"
+                                android:layout_weight="2"
                                 android:gravity="center"
                                 android:orientation="vertical">
 
@@ -191,7 +194,7 @@
                                     android:gravity="left|center_vertical"
                                     android:text="AKPER MAPPA OUDANG"
                                     android:textColor="@color/white"
-                                    android:textSize="24sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:id="@+id/textView2"
@@ -202,7 +205,7 @@
                                     android:gravity="left|center_vertical"
                                     android:text="MAKASSAR"
                                     android:textColor="@color/white"
-                                    android:textSize="24sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:id="@+id/mText1"
