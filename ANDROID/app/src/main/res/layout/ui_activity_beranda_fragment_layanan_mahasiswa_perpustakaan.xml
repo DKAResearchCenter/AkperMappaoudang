@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/primarycolor">
+        android:background="@color/primarycolor"
+        tools:ignore="UseAppTint,VectorDrawableCompat">
 
 
         <androidx.core.widget.NestedScrollView
@@ -146,8 +148,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:tint="@color/white"
-                                app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+                                app:srcCompat="@drawable/ic_baseline_menu_book_24"
+                                app:tint="@color/white"
+                                tools:ignore="VectorDrawableCompat" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -183,7 +186,8 @@
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:tint="@color/white"
-                                app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+                                app:srcCompat="@drawable/ic_baseline_menu_book_24"
+                                tools:ignore="UseAppTint,VectorDrawableCompat" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -288,7 +292,6 @@
                         android:textColor="@color/black"
                         android:textSize="18sp" />
 
-                    <Space android:layout_height="wrap_content" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -338,13 +341,13 @@
                                     app:srcCompat="@drawable/placeholder" />
 
                                 <TextView
-                                    android:id="@+id/judul1"
+
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Nonversation" />
 
                                 <TextView
-                                    android:id="@+id/kategori1"
+
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Novel book"
@@ -374,13 +377,12 @@
                                     app:srcCompat="@drawable/placeholder" />
 
                                 <TextView
-                                    android:id="@+id/judul1"
+
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Nonversation" />
 
                                 <TextView
-                                    android:id="@+id/kategori1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Novel book"
@@ -410,13 +412,11 @@
                                     app:srcCompat="@drawable/placeholder" />
 
                                 <TextView
-                                    android:id="@+id/judul1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Nonversation" />
 
                                 <TextView
-                                    android:id="@+id/kategori1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Novel book"
@@ -446,13 +446,11 @@
                                     app:srcCompat="@drawable/placeholder" />
 
                                 <TextView
-                                    android:id="@+id/judul1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Nonversation" />
 
                                 <TextView
-                                    android:id="@+id/kategori1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Novel book"
@@ -482,7 +480,6 @@
                                     app:srcCompat="@drawable/placeholder" />
 
                                 <TextView
-                                    android:id="@+id/judul1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Nonversation" />
