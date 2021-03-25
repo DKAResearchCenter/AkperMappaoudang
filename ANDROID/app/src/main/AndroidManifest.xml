@@ -37,6 +37,33 @@
         <activity
             android:name="dka.project.akper.PMBOnlineActivity"
             android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.CCTVActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.JadwalActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.TranskipActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.PerpustakaanActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.OrganisasiActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.LokasiActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.KrsActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.KhsActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.KemahasiswaanActivity"
+            android:theme="@style/Theme.Bhayangkara" />
 
     </application>
 

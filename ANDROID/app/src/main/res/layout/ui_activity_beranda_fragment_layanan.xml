@@ -22,6 +22,7 @@
                 android:paddingTop="20dp">
 
                 <TextView
+                    android:id="@+id/mlayananuser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -57,22 +58,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:cardBackgroundColor="@color/white"
-                        app:cardCornerRadius="10dp"
-                        app:cardElevation="0dp"
-                        app:contentPadding="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Cari Sesuatu Disini" />
-                    </androidx.cardview.widget.CardView>
-                </RelativeLayout>
+                    android:layout_height="match_parent" />
 
                 <Space
                     android:layout_width="match_parent"
