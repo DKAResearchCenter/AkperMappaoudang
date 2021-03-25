@@ -6,6 +6,20 @@
 
 <br>
 
+## Status
+
+![GitHub last commit](https://img.shields.io/github/last-commit/YovanggaAnandhika/AkperMappaoudang)
+![GitHub contributors](https://img.shields.io/github/contributors/YovanggaAnandhika/AkperMappaoudang)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/YovanggaAnandhika/AkperMappaoudang)
+![GitHub issues](https://img.shields.io/github/issues/YovanggaAnandhika/AkperMappaoudang)
+![GitHub repo size](https://img.shields.io/github/repo-size/YovanggaAnandhika/AkperMappaoudang)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+## Language Use
+
+  <img alt="Android" src="https://img.shields.io/badge/-Android-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
+
 ## Layanan
 
 * 🔭 **Managemen Pendaftaran.** Melakukan Pendaftaran Management Pendaftaran Mahasiswa Baru.
