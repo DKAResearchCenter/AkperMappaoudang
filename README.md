@@ -8,16 +8,11 @@
 
 ## Layanan
 
-🔭 **Managemen Pendaftaran.** Melakukan Pendaftaran Management Pendaftaran Mahasiswa Baru.
-
-🌱 **Managemen Pembayaran SKT.** Melakukan Metode Pembayaran Untuk Segala Macam Pendaftaran
-
-👯 **Database Mahasiswa.** Menampung Big Data Mahasiswa, Termasuk Nilai, Rapor, Kurikulum, dan Feature CCTV
-
-🤔 **Database Dosen, Staff, Rektor.** Database Guru, Sistem Belajar Mengajar, Jadwal Mengajar, dan Penilaian
-
-😄 **Parenting Control.** Orang Tua Bisa Memantau Dalam Peserta Didik Kampus
-
+🔭 **Managemen Pendaftaran.** Melakukan Pendaftaran Management Pendaftaran Mahasiswa Baru.<br>
+🌱 **Managemen Pembayaran SKT.** Melakukan Metode Pembayaran Untuk Segala Macam Pendaftaran<br>
+👯 **Database Mahasiswa.** Menampung Big Data Mahasiswa, Termasuk Nilai, Rapor, Kurikulum, dan Feature CCTV<br>
+🤔 **Database Dosen, Staff, Rektor.** Database Guru, Sistem Belajar Mengajar, Jadwal Mengajar, dan Penilaian<br>
+😄 **Parenting Control.** Orang Tua Bisa Memantau Dalam Peserta Didik Kampus<br>
 ⚡ **Lebih Banyak Fitur Lainnya.** 🐈
 
 ### Directory Description
