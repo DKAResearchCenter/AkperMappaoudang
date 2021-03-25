@@ -57,7 +57,8 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
                 false
             }
             R.id.maboutus -> {
-                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, AboutUsFragment()).commit()
+
+                /*mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, AboutUsFragment()).commit()*/
                 false
             }
             R.id.makun -> {
