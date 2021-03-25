@@ -38,6 +38,9 @@
             android:name="dka.project.akper.PMBOnlineActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
+            android:name="dka.project.akper.PencarianActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
             android:name="dka.project.akper.layanan.CCTVActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
@@ -63,6 +66,9 @@
             android:theme="@style/Theme.Bhayangkara" />
         <activity
             android:name="dka.project.akper.layanan.KemahasiswaanActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.LoginActivity"
             android:theme="@style/Theme.Bhayangkara" />
 
     </application>

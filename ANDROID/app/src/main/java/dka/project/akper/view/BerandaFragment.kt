@@ -6,10 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import dka.project.akper.BrosurActivity
-import dka.project.akper.ELearningActivity
-import dka.project.akper.PMBOnlineActivity
-import dka.project.akper.PengumumanActivity
+import dka.project.akper.*
 import dka.project.akper.databinding.UiActivityBerandaFragmenBerandaBinding
 
 class BerandaFragment : Fragment() {
@@ -49,6 +46,14 @@ class BerandaFragment : Fragment() {
                     requireActivity(),
                     ELearningActivity::class.java
                 )
+                startActivity(i)
+            }
+            it.mpencarian.setOnClickListener() {
+                i = Intent(requireActivity(), PencarianActivity::class.java)
+                startActivity(i)
+            }
+            it.mlogin.setOnClickListener() {
+                i = Intent(requireActivity(), LoginActivity::class.java)
                 startActivity(i)
             }
         }

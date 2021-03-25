@@ -80,6 +80,7 @@
                         app:srcCompat="@drawable/whatsapp_logo_1" />
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/mlogin"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="80dp"
@@ -141,18 +142,19 @@
                             </LinearLayout>
 
                             <androidx.cardview.widget.CardView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_toLeftOf="@id/mControllLayout"
-                                    app:cardBackgroundColor="@color/white"
-                                    app:cardCornerRadius="10dp"
-                                    app:cardElevation="0dp"
-                                    app:contentPadding="10dp">
+                                android:id="@+id/mpencarian"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/mControllLayout"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="10dp"
+                                app:cardElevation="0dp"
+                                app:contentPadding="10dp">
 
                                 <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="Cari Sesuatu Disini"/>
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cari Sesuatu Disini" />
                             </androidx.cardview.widget.CardView>
                         </RelativeLayout>
 
@@ -167,11 +169,9 @@
                             android:paddingLeft="20dp">
 
                             <ImageView
-                                android:id="@+id/imageView"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:layout_weight="1"
                                 app:srcCompat="@drawable/logo" />
 
                             <LinearLayout
@@ -216,7 +216,7 @@
                                     android:gravity="left|center_vertical"
                                     android:text="Disiplin, Terampil &amp; Berdaya Saing"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
                             </LinearLayout>
                         </LinearLayout>
 

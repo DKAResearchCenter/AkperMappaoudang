@@ -76,6 +76,7 @@
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginEnd="15dp"
                                 android:layout_marginRight="15dp"
+                                android:layout_weight="2"
                                 android:gravity="center"
                                 android:orientation="vertical">
 
@@ -87,7 +88,7 @@
                                     android:gravity="left|center_vertical"
                                     android:text="AKPER MAPPA OUDANG"
                                     android:textColor="@color/white"
-                                    android:textSize="24sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:id="@+id/textView2"
@@ -98,7 +99,7 @@
                                     android:gravity="left|center_vertical"
                                     android:text="MAKASSAR"
                                     android:textColor="@color/white"
-                                    android:textSize="24sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:id="@+id/mText1"
@@ -109,7 +110,7 @@
                                     android:gravity="left|center_vertical"
                                     android:text="Disiplin, Terampil &amp; Berdaya Saing"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
                             </LinearLayout>
                         </LinearLayout>
 

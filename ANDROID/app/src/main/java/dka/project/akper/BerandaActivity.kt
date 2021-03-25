@@ -9,7 +9,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dka.project.akper.databinding.UiActivityBerandaFragmentBinding
-import dka.project.akper.view.*
+import dka.project.akper.view.AkunFragment
+import dka.project.akper.view.BerandaFragment
+import dka.project.akper.view.LayananFragment
+import dka.project.akper.view.NotificationFragment
 
 class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -29,8 +32,6 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
         mBinding.mBottom.setOnNavigationItemSelectedListener(this)
 
         mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, BerandaFragment()).commit()
-
-
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

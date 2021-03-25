@@ -106,7 +106,7 @@
                             android:gravity="left|center_vertical"
                             android:text="Disiplin, Terampil &amp; Berdaya Saing"
                             android:textColor="@color/white"
-                            android:textSize="14sp" />
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
