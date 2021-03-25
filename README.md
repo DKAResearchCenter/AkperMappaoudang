@@ -2,24 +2,14 @@
 <p align="center">Aplikasi Sistem Terpadu Universitas, Smart Kampus</p>
 <br>
 
-**Mudah:** Dapat melakukan Pengembangan Multi Project Dengan Layout dan Fungsi Yang Dapat Dipanggil Tanpa Harus Membuat
-Fungsi Mentah Di Dalam Aplikasi.
-
-**Kompabilitas:** Dapat Digunakan Membuat Desktop Apps, Android Apps, dan Web Apps. Dengan 1 Bahasa Program.
-
-**Fleksibel :** Sistem Buka Tutup Fungsi Dalam Memuat Module Yang Dibutuhkan Karna Modul Framework Bersifat Bongkar
-Pasang.
-
-**Cepat :** Mengoptimasi Server Dengan RAM Rendah, dan Gabungan Antar Framework Tercepat, Serta Teknologi Kompressing
-Yang Baik.
 
 ## Layanan
 
-* **Terstruktur.** Kode Yang Dapat dengan Mudah Dipahami dan Rapi Serta Dapat Dipanggil Layaknya Seperti Paket Modulasi.
-* **Tanpa Pemblokiran Antarmuka .** Dapat Berjalan Tanpa Mengganggu Fungsi Lainnya.
-* **Dokumentasi Lengkap.** Dokumentasi dan Contoh Kode Yang Lengkap Dan Disertakan.
-* **Terbebas Dari Error.** Terdapat error Deteksi Agar Mencari Error Dapat dengan Mudah Dilakukan.
-* **Tanpa Install WebServer.** Menggunakan Bahasa JS Utama Yang Cocok Dalam Hal Efisiensi Data.
+* **Managemen Pendaftaran.** Melakukan Pendaftaran Management Pendaftaran Mahasiswa Baru.
+* **Managemen Pembayaran SKT.** Melakukan Metode Pembayaran Untuk Segala Macam Pendaftaran
+* **Database Mahasiswa.** Menampung Big Data Mahasiswa, Termasuk Nilai, Rapor, Kurikulum, dan Feature CCTV
+* **Database Dosen, Staff, Rektor.** Database Guru, Sistem Belajar Mengajar, Jadwal Mengajar, dan Penilaian
+* **Parenting Control.** Orang Tua Bisa Memantau Dalam Peserta Didik Kampus
 * **Lebih Banyak Fitur Lainnya.** 🐈
 
 ### Directory Description
