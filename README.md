@@ -44,7 +44,7 @@ Lihat [Contributing](https://dkaresearchcenter.com/org/contributing/).
 [@yovangga](https://github.com/yovanggaanandhika) | [@diwan29](https://github.com/Ridwan29) | [@froggie-tech](https://github.com/froggie-tech)
 --- | --- | --- 
 <img src="https://avatars.githubusercontent.com/yovanggaanandhika?s=100&v=1" width="100" height="100" /> | <img src="https://avatars.githubusercontent.com/diwan29?s=100&v=1" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/froggie-tech?s" width="100" height="100">
-
+Full Stack Development | The Half Programming | The Half Programming
 <!-- <table border="0">
 <tr>
     <td><img width="800" src="https://media.istockphoto.com/vectors/default-profile-picture-avatar-photo-placeholder-vector-illustration-vector-id1223671392?k=6&m=1223671392&s=612x612&w=0&h=NGxdexflb9EyQchqjQP0m6wYucJBYLfu46KCLNMHZYM=" alt="Yovangga Anandhika"> </td>
