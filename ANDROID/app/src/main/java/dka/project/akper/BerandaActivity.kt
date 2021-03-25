@@ -7,7 +7,6 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentStatePagerAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dka.project.akper.databinding.UiActivityBerandaFragmentBinding
 import dka.project.akper.view.*
