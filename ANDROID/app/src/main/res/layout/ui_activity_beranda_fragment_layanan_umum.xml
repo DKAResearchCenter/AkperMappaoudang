@@ -155,7 +155,7 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:padding="10dp"
-                            app:srcCompat="@drawable/ic_security_camera" />
+                            app:srcCompat="@drawable/ic_cctv" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -184,7 +184,7 @@
                             android:layout_width="100dp"
                             android:layout_height="105dp"
                             android:padding="10dp"
-                            app:srcCompat="@drawable/ic_schedule" />
+                            app:srcCompat="@drawable/ic_jadwal" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -213,7 +213,7 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:padding="10dp"
-                            app:srcCompat="@drawable/ic_student"
+                            app:srcCompat="@drawable/ic_mahasiswa"
                             tools:ignore="UseAppTint,VectorDrawableCompat" />
 
                         <TextView
@@ -243,7 +243,7 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:padding="20dp"
-                            app:srcCompat="@drawable/ic_pin" />
+                            app:srcCompat="@drawable/ic_lokasi" />
 
                         <TextView
                             android:layout_width="wrap_content"

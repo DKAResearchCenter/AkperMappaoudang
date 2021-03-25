@@ -50,13 +50,15 @@ class LayananFragment : Fragment() {
 
             mdata.apply {
                 clear()
-                add(LayananRecyclerView.data(R.drawable.ic_student, "Mahasiswa"))
-                add(LayananRecyclerView.data(R.drawable.ic_schedule, "Jadwal"))
-                add(LayananRecyclerView.data(R.drawable.ic_security_camera, "CCTV"))
-                add(LayananRecyclerView.data(R.drawable.ic_pin, "Map"))
-                add(LayananRecyclerView.data(R.drawable.ic_call_center__1_, "KHS Online"))
+                add(LayananRecyclerView.data(R.drawable.ic_mahasiswa, "Mahasiswa"))
+                add(LayananRecyclerView.data(R.drawable.ic_jadwal, "Jadwal"))
+                add(LayananRecyclerView.data(R.drawable.ic_cctv, "CCTV"))
+                add(LayananRecyclerView.data(R.drawable.ic_lokasi, "Map"))
+                add(LayananRecyclerView.data(R.drawable.ic_khsonline, "KHS Online"))
+                add(LayananRecyclerView.data(R.drawable.ic_transkip, "KHS Online"))
+                add(LayananRecyclerView.data(R.drawable.ic_krsonline, "KHS Online"))
             }
-            adapter.dataBaru()
+            adapter.dataBaru(mdata)
         }
     }
 
