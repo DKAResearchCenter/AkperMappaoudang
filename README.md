@@ -41,9 +41,9 @@ Lihat [Contributing](https://dkaresearchcenter.com/org/contributing/).
 
 ## Team
 
-[@yovanggaanandhika](https://github.com/yovanggaanandhika) | [@diwan29](https://github.com/Ridwan29) | [@froggie-tech](https://github.com/froggie-tech)
+[@yovangga](https://github.com/yovanggaanandhika) | [@diwan29](https://github.com/Ridwan29) | [@froggie-tech](https://github.com/froggie-tech)
 --- | --- | --- 
-![@yovanggaanandhika](https://avatars.githubusercontent.com/yovanggaanandhika?s=100&v=1) | ![@diwan29](https://avatars.githubusercontent.com/diwan29?s=100&v=1) | ![@froggie-tech](https://avatars.githubusercontent.com/froggie-tech?s=100&v=1)
+<img src="https://avatars.githubusercontent.com/yovanggaanandhika?s=100&v=1" width="100" height="100" /> | <img src="https://avatars.githubusercontent.com/diwan29?s=100&v=1" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/froggie-tech?s" width="100" height="100">
 
 <!-- <table border="0">
 <tr>
