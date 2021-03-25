@@ -1,7 +1,10 @@
-<h1 align="center">AKPER MAPPA OUDANG MAKASSAR</h1>
-<p align="center">Aplikasi Sistem Terpadu Universitas, Smart Kampus</p>
-<br>
+<div align="center">
+<img width="100" height="120" src="https://api-frontend.kemdikbud.go.id/v2/detail_pt_logo/Mzg5QzA3OEQtMEQ0My00ODE3LTlDNTQtREYzRUNGODBFMUY0">
+<h1>AKPER MAPPA OUDANG MAKASSAR</h1>
+<p>Aplikasi Sistem Terpadu Universitas, Smart Kampus</p>
+</div>
 
+<br>
 
 ## Layanan
 
@@ -43,8 +46,9 @@ Lihat [Contributing](https://dkaresearchcenter.com/org/contributing/).
 
 [@yovangga](https://github.com/yovanggaanandhika) | [@diwan29](https://github.com/Ridwan29) | [@froggie-tech](https://github.com/froggie-tech)
 --- | --- | --- 
-<img src="https://avatars.githubusercontent.com/yovanggaanandhika?s=100&v=1" width="100" height="100" /> | <img src="https://avatars.githubusercontent.com/diwan29?s=100&v=1" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/froggie-tech?s" width="100" height="100">
+<img align="center" src="https://avatars.githubusercontent.com/yovanggaanandhika?s=100&v=1" width="100" height="100" /> | <img align="center" src="https://avatars.githubusercontent.com/diwan29?s=100&v=1" width="100" height="100"> | <img align="center" src="https://avatars.githubusercontent.com/froggie-tech?s" width="100" height="100">
 Full Stack Development | The Half Programming | The Half Programming
+
 <!-- <table border="0">
 <tr>
     <td><img width="800" src="https://media.istockphoto.com/vectors/default-profile-picture-avatar-photo-placeholder-vector-illustration-vector-id1223671392?k=6&m=1223671392&s=612x612&w=0&h=NGxdexflb9EyQchqjQP0m6wYucJBYLfu46KCLNMHZYM=" alt="Yovangga Anandhika"> </td>
