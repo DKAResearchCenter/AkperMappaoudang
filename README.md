@@ -17,8 +17,7 @@
 
 ## Language Use
 
-  <img alt="Android" src="https://img.shields.io/badge/-Android-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
+<img alt="Android" src="https://img.shields.io/badge/-Android-13aa52?style=flat-square&logo=mongodb&logoColor=white" /><img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 
 ## Layanan
 
