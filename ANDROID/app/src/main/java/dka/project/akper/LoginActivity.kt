@@ -18,11 +18,11 @@ class LoginActivity : AppCompatActivity() {
 
         mbinding.let {
             it.mregist.setOnClickListener() {
-                i = Intent(this, R.layout.ui_activity_registrasi::class.java)
+                i = Intent(this, RegistrasiActivity::class.java)
                 startActivity(i)
             }
             it.mlupapass.setOnClickListener() {
-                i = Intent(this, R.layout.ui_activity_lupa_password::class.java)
+                i = Intent(this, PasswordActivity::class.java)
                 startActivity(i)
             }
         }
