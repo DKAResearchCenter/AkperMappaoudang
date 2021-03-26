@@ -111,33 +111,32 @@
                         android:background="@drawable/cardview1">
 
                     <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:paddingBottom="10dp">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
 
                             <LinearLayout
-                                    android:id="@+id/mControllLayout"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_alignParentRight="true"
-                                    android:orientation="horizontal">
+                                android:id="@+id/mControllLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:orientation="horizontal">
 
                                 <ImageButton
-                                        android:id="@+id/mcctvbutton"
-                                        android:layout_width="40dp"
-                                        android:layout_height="40dp"
-                                        android:layout_gravity="center_vertical"
-                                        android:layout_weight="1"
-                                        android:background="@null"
-                                        android:scaleType="centerInside"
-                                        android:tint="@color/white"
-                                        app:srcCompat="@drawable/ic_baseline_videocam_24"
-                                        tools:ignore="VectorDrawableCompat"/>
+                                    android:id="@+id/mcctvbutton"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:background="@null"
+                                    android:scaleType="centerInside"
+                                    android:tint="@color/white"
+                                    app:srcCompat="@drawable/ic_baseline_videocam_24"
+                                    tools:ignore="VectorDrawableCompat" />
 
                             </LinearLayout>
 
@@ -159,14 +158,14 @@
                         </RelativeLayout>
 
                         <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="20dp"/>
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:paddingLeft="20dp">
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
 
                             <ImageView
                                 android:layout_width="80dp"
@@ -229,17 +228,21 @@
                         android:layout_height="wrap_content">
 
                     <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="15dp"
-                            android:orientation="vertical"
-                    >
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
 
                         <com.denzcoskun.imageslider.ImageSlider
+                            android:id="@+id/image_slider"
                             android:layout_width="match_parent"
-                            android:layout_height="170dp">
-
-                        </com.denzcoskun.imageslider.ImageSlider>
+                            android:layout_height="180dp"
+                            android:layout_marginBottom="10dp"
+                            app:iss_auto_cycle="true"
+                            app:iss_delay="0"
+                            app:iss_error_image="@drawable/placeholder"
+                            app:iss_period="1000"
+                            app:iss_placeholder="@drawable/placeholder" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
