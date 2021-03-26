@@ -78,8 +78,12 @@ class BerandaFragment : Fragment() {
                 i = Intent(requireActivity(), PencarianActivity::class.java)
                 startActivity(i)
             }
-            it.mlogin.setOnClickListener() {
-                i = Intent(requireActivity(), LoginActivity::class.java)
+            it.mregist.setOnClickListener() {
+                i = Intent(requireActivity(), RegistrasiActivity::class.java)
+                startActivity(i)
+            }
+            it.maccount.setOnClickListener() {
+                i = Intent(requireActivity(), AkunActivity::class.java)
                 startActivity(i)
             }
         }

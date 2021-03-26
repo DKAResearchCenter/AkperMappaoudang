@@ -9,8 +9,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dka.project.akper.databinding.UiActivityBerandaFragmentBinding
-import dka.project.akper.view.AkunFragment
 import dka.project.akper.view.BerandaFragment
+import dka.project.akper.view.ChatFragment
 import dka.project.akper.view.LayananFragment
 import dka.project.akper.view.NotificationFragment
 
@@ -63,8 +63,9 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
                 /*mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, AboutUsFragment()).commit()*/
                 false
             }
-            R.id.makun -> {
-                mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, AkunFragment()).commit()
+            R.id.mchat -> {
+                mSupportFragment.beginTransaction()
+                    .replace(mBinding.mFrameContent.id, ChatFragment()).commit()
                 false
             }
             else -> {
