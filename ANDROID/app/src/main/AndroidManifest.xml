@@ -35,6 +35,9 @@
             android:name="dka.project.akper.AkunActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
+            android:name="dka.project.akper.ChatKontakActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
             android:name="dka.project.akper.ELearningActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
