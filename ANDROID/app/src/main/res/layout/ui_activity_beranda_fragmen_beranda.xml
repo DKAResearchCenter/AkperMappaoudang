@@ -29,55 +29,50 @@
                     android:weightSum="20">
 
                     <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:layout_marginEnd="5dp"
                         android:layout_marginRight="5dp"
-                        android:layout_weight="1"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/instagram_logo" />
 
                     <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:layout_marginEnd="5dp"
                         android:layout_marginRight="5dp"
-                        android:layout_weight="1"
                         android:padding="5dp"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/facebook_logo" />
 
                     <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:layout_marginEnd="5dp"
                         android:layout_marginRight="5dp"
-                        android:layout_weight="1"
                         android:padding="3dp"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/twitter_logo" />
 
                     <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:layout_marginEnd="5dp"
                         android:layout_marginRight="5dp"
-                        android:layout_weight="1"
                         android:padding="4dp"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/youtube_logo" />
 
                     <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:layout_marginEnd="5dp"
                         android:layout_marginRight="5dp"
-                        android:layout_weight="1"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/whatsapp_logo_1" />
 
@@ -103,17 +98,6 @@
                             android:textColor="@color/white"
                             android:textSize="8sp" />
                     </androidx.cardview.widget.CardView>
-
-                    <ImageView
-                        android:id="@+id/maccount"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="150dp"
-                        android:layout_marginLeft="150dp"
-                        android:tint="@color/secondarycolor"
-                        android:visibility="gone"
-                        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
 
                 </LinearLayout>
 
@@ -303,7 +287,7 @@
                                 android:layout_height="10dp" />
 
                             <androidx.cardview.widget.CardView
-                                android:id="@+id/mbrosur"
+                                android:id="@+id/melearning"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="5"
@@ -322,14 +306,14 @@
                                         android:layout_width="40dp"
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
-                                        app:srcCompat="@drawable/ic_brochure" />
+                                        app:srcCompat="@drawable/ic_education" />
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:gravity="center"
-                                        android:text="Brosur"
+                                        android:text="E-Learning"
                                         android:textColor="@color/white"
                                         android:textSize="10sp" />
                                 </LinearLayout>
@@ -379,7 +363,7 @@
                                 android:layout_height="10dp" />
 
                             <androidx.cardview.widget.CardView
-                                android:id="@+id/melearning"
+                                android:id="@+id/mbrosur"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="5"
@@ -388,6 +372,7 @@
                                 app:cardCornerRadius="5dp">
 
                                 <LinearLayout
+                                    android:id="@+id/maboutus"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_margin="5dp"
@@ -398,14 +383,14 @@
                                         android:layout_width="40dp"
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
-                                        app:srcCompat="@drawable/ic_education" />
+                                        app:srcCompat="@drawable/ic_info" />
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:gravity="center"
-                                        android:text="E-Learning"
+                                        android:text="Tentang Kami"
                                         android:textColor="@color/white"
                                         android:textSize="10sp" />
                                 </LinearLayout>

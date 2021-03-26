@@ -56,7 +56,7 @@ class BerandaFragment : Fragment() {
             it.mbrosur.setOnClickListener() {
                 i = Intent(
                     requireActivity(),
-                    BrosurActivity::class.java
+                    AboutUsActivity::class.java
                 )
                 startActivity(i)
             }
@@ -82,8 +82,11 @@ class BerandaFragment : Fragment() {
                 i = Intent(requireActivity(), LoginActivity::class.java)
                 startActivity(i)
             }
-            it.maccount.setOnClickListener() {
-                i = Intent(requireActivity(), AkunActivity::class.java)
+            it.maboutus.setOnClickListener() {
+                i = Intent(
+                    requireActivity(),
+                    R.layout.ui_activity_beranda_fragment_aboutus::class.java
+                )
                 startActivity(i)
             }
         }

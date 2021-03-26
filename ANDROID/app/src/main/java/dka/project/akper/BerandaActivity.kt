@@ -5,19 +5,13 @@ package dka.project.akper
 
 
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
-import com.google.android.material.bottomappbar.BottomAppBar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dka.project.akper.databinding.UiActivityBerandaFragmentBinding
-import dka.project.akper.view.BerandaFragment
-import dka.project.akper.view.ChatFragment
-import dka.project.akper.view.LayananFragment
-import dka.project.akper.view.NotificationFragment
+import dka.project.akper.view.*
 
 
 class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
@@ -67,7 +61,11 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
                     .commit()
                 false
             }
-            R.id.maboutus -> {
+            R.id.makun -> {
+                mSupportFragment
+                    .beginTransaction()
+                    .replace(mBinding.mFrameContent.id, AkunFragment())
+                    .commit()
 
                 /*mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, AboutUsFragment()).commit()*/
                 false

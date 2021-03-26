@@ -29,7 +29,7 @@
             android:name="dka.project.akper.BerandaActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
-            android:name="dka.project.akper.BrosurActivity"
+            android:name="dka.project.akper.AboutUsActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
             android:name="dka.project.akper.AkunActivity"
