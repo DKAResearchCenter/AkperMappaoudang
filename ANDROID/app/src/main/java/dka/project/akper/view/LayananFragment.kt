@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import dka.project.akper.KurikulumActivity
 import dka.project.akper.R
 import dka.project.akper.architecture.RecyclerView.LayananRecyclerView
 import dka.project.akper.databinding.UiActivityBerandaFragmentLayananBinding
@@ -54,14 +55,14 @@ class LayananFragment : Fragment() {
                     LayananRecyclerView.data(
                         R.drawable.ic_mahasiswa,
                         KemahasiswaanActivity::class.java,
-                        "Kemahasiswaan"
+                        "Kemahasiswaan" // Untuk Orang Tua, Pegawai
                     )
                 )
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_jadwal,
                         JadwalActivity::class.java,
-                        "Jadwal"
+                        "Jadwal" // Untuk Orang Tua, Pegawai, Mahasiswa
                     )
                 )
                 add(LayananRecyclerView.data(R.drawable.ic_cctv, CCTVActivity::class.java, "CCTV"))
@@ -69,21 +70,21 @@ class LayananFragment : Fragment() {
                     LayananRecyclerView.data(
                         R.drawable.ic_lokasi,
                         LokasiActivity::class.java,
-                        "Map"
+                        "Map" // Untuk orangtua, Pegawai
                     )
                 )
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_khsonline,
                         KhsActivity::class.java,
-                        "KHS Online"
+                        "KHS Online" // untuk Mahasiswa
                     )
                 )
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_transkip,
                         TranskipActivity::class.java,
-                        "Transkip Nilai"
+                        "Transkip Nilai" // untuk mahasiswa, orangtua, pegawai
                     )
                 )
                 // U
@@ -91,31 +92,51 @@ class LayananFragment : Fragment() {
                     LayananRecyclerView.data(
                         R.drawable.ic_krsonline,
                         KrsActivity::class.java,
-                        "KRS Online"
+                        "KRS Online" // untuk mahasiswa
                     )
                 )
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_organization,
                         OrganisasiActivity::class.java,
-                        "Organisasi"
+                        "Organisasi" // untuk semua
                     )
                 )
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_perpustakaan,
                         PerpustakaanActivity::class.java,
-                        "Perpustakaan"
+                        "Perpustakaan" // untuk semua
                     )
                 )
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_paper,
-                        PerpustakaanActivity::class.java,
-                        "Kurikulum"
+                        KurikulumActivity::class.java,
+                        "Kurikulum" // untuk semua
                     )
                 )
-
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_tv,
+                        ElektronikActivity::class.java,
+                        "Elektronik" // untuk pegawai
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_laboratory,
+                        LaboratoriumActivity::class.java,
+                        "Laboratorium" // untuk semua
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_management,
+                        FasilitasActivity::class.java,
+                        "Fasilitas" // untuk semua
+                    )
+                )
             }
 
         }

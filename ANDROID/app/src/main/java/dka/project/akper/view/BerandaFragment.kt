@@ -53,13 +53,6 @@ class BerandaFragment : Fragment() {
                 )
                 startActivity(i)
             }
-            it.mbrosur.setOnClickListener() {
-                i = Intent(
-                    requireActivity(),
-                    AboutUsActivity::class.java
-                )
-                startActivity(i)
-            }
             it.mpengumuman.setOnClickListener() {
                 i = Intent(
                     requireActivity(),

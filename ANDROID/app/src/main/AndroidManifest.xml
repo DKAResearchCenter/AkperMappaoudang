@@ -77,6 +77,15 @@
             android:name="dka.project.akper.layanan.KemahasiswaanActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
+            android:name="dka.project.akper.layanan.LaboratoriumActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.ElektronikActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.layanan.FasilitasActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
             android:name="dka.project.akper.LoginActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
