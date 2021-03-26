@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import dka.project.akper.KurikulumActivity
 import dka.project.akper.R
 import dka.project.akper.architecture.RecyclerView.LayananRecyclerView
 import dka.project.akper.databinding.UiActivityBerandaFragmentLayananBinding
@@ -90,6 +91,10 @@ class LayananFragment : Fragment() {
                     i = Intent(requireActivity(), PerpustakaanActivity::class.java)
                     startActivity(i)
                 }, "Perpustakaan"))
+                add(LayananRecyclerView.data(R.drawable.ic_paper, {
+                    i = Intent(requireActivity(), KurikulumActivity::class.java)
+                    startActivity(i)
+                }, "Kurikulum"))
             }
 
         }
