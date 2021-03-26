@@ -51,7 +51,7 @@
                     android:text="Username"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -61,18 +61,6 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
                     android:hint="e.g. Username" />
-
-                <View
-                    android:id="@+id/view2"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@color/dividerColor"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
 
                 <TextView
                     android:id="@+id/textView9"
@@ -87,7 +75,7 @@
                     android:text="Email"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -95,19 +83,8 @@
                     android:layout_marginEnd="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
-                    android:hint="Contoh : saya123@example.com" />
-
-                <View
-                    android:id="@+id/view"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@color/dividerColor"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
+                    android:hint="Contoh : saya123@example.com"
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/textView24"
@@ -133,12 +110,14 @@
                     android:orientation="horizontal"
                     android:weightSum="10">
 
-                    <TextView
+                    <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
                         android:layout_weight="9"
-                        android:hint="*******" />
+                        android:hint="*******"
+                        android:inputType="textPassword"
+                        android:password="true" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -147,18 +126,6 @@
                         app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
                         tools:ignore="VectorDrawableCompat" />
                 </LinearLayout>
-
-                <View
-                    android:id="@+id/view3"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@color/dividerColor"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
 
                 <TextView
                     android:id="@+id/textView25"
@@ -184,13 +151,15 @@
                     android:orientation="horizontal"
                     android:weightSum="10">
 
-                    <TextView
+                    <EditText
                         android:id="@+id/textView12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
                         android:layout_weight="9"
-                        android:hint="********" />
+                        android:hint="********"
+                        android:inputType="textPassword"
+                        android:password="false" />
 
                     <ImageView
                         android:id="@+id/imageView9"
@@ -200,18 +169,6 @@
                         app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
                         tools:ignore="VectorDrawableCompat" />
                 </LinearLayout>
-
-                <View
-                    android:id="@+id/view4"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@color/dividerColor"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
 
                 <TextView
                     android:id="@+id/textView27"
@@ -226,7 +183,7 @@
                     android:text="No. Telepon / HP"
                     android:textColor="@color/black" />
 
-                <TextView
+                <EditText
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -236,18 +193,6 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
                     android:hint="08xxxxxxxxxx" />
-
-                <View
-                    android:id="@+id/view5"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@color/dividerColor"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
 
                 <Button
                     android:layout_width="match_parent"
