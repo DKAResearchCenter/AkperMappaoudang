@@ -17,8 +17,8 @@ class LoginActivity : AppCompatActivity() {
         mbinding = DataBindingUtil.setContentView(this, R.layout.ui_activity_login)
 
         mbinding.let {
-            it.mregist.setOnClickListener() {
-                i = Intent(this, RegistrasiActivity::class.java)
+            it.mmasuk.setOnClickListener() {
+                i = Intent(this, BerandaActivity::class.java)
                 startActivity(i)
             }
             it.mlupapass.setOnClickListener() {
@@ -28,8 +28,8 @@ class LoginActivity : AppCompatActivity() {
 
             it.mLogin.setOnClickListener() {
 
-               /* i = Intent(this, BerandaActivity::class.java)
-                startActivity(i)*/
+                /* i = Intent(this, BerandaActivity::class.java)
+                 startActivity(i)*/
             }
         }
     }
