@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
 
         mbinding.let {
             it.mLoginWithoutLogin.setOnClickListener() {
-                Prefs.putBoolean(ApplicationController.AUTH_STATE, true)
+                Prefs.putBoolean(ApplicationController.AUTH_STATE, false)
                 Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, "anonim")
                 i = Intent(this, BerandaActivity::class.java)
 
