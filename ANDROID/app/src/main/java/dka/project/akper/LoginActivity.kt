@@ -25,6 +25,11 @@ class LoginActivity : AppCompatActivity() {
                 i = Intent(this, PasswordActivity::class.java)
                 startActivity(i)
             }
+
+            it.mLogin.setOnClickListener() {
+                i = Intent(this, BerandaActivity::class.java)
+                startActivity(i)
+            }
         }
     }
 

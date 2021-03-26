@@ -17,7 +17,7 @@ class splashScreen : AppCompatActivity() {
         mbinding = DataBindingUtil.setContentView(this, R.layout.ui_activity_splashscreen)
 
         Handler().postDelayed({
-            i = Intent(this, BerandaActivity::class.java)
+            i = Intent(this, LoginActivity::class.java)
             startActivity(i)
             finish()
         }, 2000)
