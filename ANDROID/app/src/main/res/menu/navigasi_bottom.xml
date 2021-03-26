@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/mBeranda"
         android:enabled="true"
         android:title="Beranda"
-        android:icon="@drawable/ic_baseline_home_24" />
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/mnotif"
         android:enabled="true"
         android:title="Notification"
+        app:showAsAction="always"
         android:icon="@drawable/ic_baseline_notifications_24" />
-
     <item
-        android:id="@+id/mlayanan"
-        android:enabled="true"
-        android:title="Layanan"
-        android:icon="@drawable/ic_baseline_widgets_24" />
-
+        android:id="@+id/itemEmpty"
+        android:title=""/>
     <item
         android:id="@+id/mchat"
         android:enabled="true"
         android:title="Akun Saya"
+        app:showAsAction="always"
         android:icon="@drawable/ic_baseline_chat_24" />
 
     <item
         android:id="@+id/maboutus"
         android:enabled="true"
         android:title="About US"
+        app:showAsAction="always"
         android:icon="@drawable/ic_baseline_supervised_user_circle_24" />
 
 

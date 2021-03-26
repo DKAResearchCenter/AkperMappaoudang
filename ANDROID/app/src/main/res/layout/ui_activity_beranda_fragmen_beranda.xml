@@ -4,15 +4,14 @@
         xmlns:tools="http://schemas.android.com/tools">
 
     <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/primarycolor"
-            tools:ignore="VectorDrawableCompat">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="VectorDrawableCompat">
 
         <androidx.core.widget.NestedScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:fillViewport="false">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,10 +114,10 @@
                 </LinearLayout>
 
                 <RelativeLayout
-                        android:id="@+id/mBackground"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/cardview1">
+                    android:id="@+id/mBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cardview1">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -234,8 +233,8 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -704,22 +703,21 @@
                         </LinearLayout>
 
                         <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginEnd="5dp"
-                                android:layout_marginRight="5dp"
-                                android:layout_marginBottom="10dp"
-                                android:background="@color/thirdcolor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/thirdcolor"
 
-                        >
+                            >
 
                             <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical"
-                            >
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
 
                                 <TextView
                                     android:layout_width="match_parent"
@@ -845,44 +843,44 @@
                                         android:layout_height="match_parent" />
 
                                     <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:orientation="vertical">
-
-                                        <TextView
-                                                android:layout_width="match_parent"
-                                                android:layout_height="wrap_content"
-                                                android:maxLines="2"
-                                                android:text="Pelatihan Penanganan Gawat Darurat Dan Search And Rescue (SAR)"
-                                                android:textSize="14sp"
-                                                android:textStyle="bold"/>
+                                            android:maxLines="2"
+                                            android:text="Pelatihan Penanganan Gawat Darurat Dan Search And Rescue (SAR)"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
 
                                         <Space
-                                                android:layout_width="match_parent"
-                                                android:layout_height="5dp"/>
+                                            android:layout_width="match_parent"
+                                            android:layout_height="5dp" />
 
                                         <TextView
-                                                android:layout_width="match_parent"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginEnd="10dp"
-                                                android:layout_marginRight="10dp"
-                                                android:text="8 Jam Yang Lalu"
-                                                android:textSize="10sp"/>
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginEnd="10dp"
+                                            android:layout_marginRight="10dp"
+                                            android:text="8 Jam Yang Lalu"
+                                            android:textSize="10sp" />
 
                                         <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:maxLines="3"
-                                                android:text="MAKASSAR- Akademi Keperawatan (Akper) Mappa Oudang Makassar menggelar pelatihan penanggulangan bencana dan SAR dasar, Sabtu-Minggu (9-10/9/2017). Kegiatan ini berlangsung di Hutan Tabo Tabo Kabupaten Pangkep dan diikuti sekitar 120 peserta."
-                                                android:textSize="10sp"/>
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:maxLines="3"
+                                            android:text="MAKASSAR- Akademi Keperawatan (Akper) Mappa Oudang Makassar menggelar pelatihan penanggulangan bencana dan SAR dasar, Sabtu-Minggu (9-10/9/2017). Kegiatan ini berlangsung di Hutan Tabo Tabo Kabupaten Pangkep dan diikuti sekitar 120 peserta."
+                                            android:textSize="10sp" />
 
                                     </LinearLayout>
 
                                 </LinearLayout>
 
                                 <Space
-                                        android:layout_width="match_parent"
-                                        android:layout_height="10dp"/>
+                                    android:layout_width="match_parent"
+                                    android:layout_height="10dp" />
 
                             </LinearLayout>
                         </RelativeLayout>

@@ -2,17 +2,23 @@
 
 package dka.project.akper
 
+
+
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
+import com.google.android.material.bottomappbar.BottomAppBar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dka.project.akper.databinding.UiActivityBerandaFragmentBinding
 import dka.project.akper.view.BerandaFragment
 import dka.project.akper.view.ChatFragment
 import dka.project.akper.view.LayananFragment
 import dka.project.akper.view.NotificationFragment
+
 
 class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -35,6 +41,9 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
         mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, BerandaFragment()).commit()
     }
 
+
+
+
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
             R.id.mBeranda -> {
@@ -48,13 +57,6 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
                 mSupportFragment
                     .beginTransaction()
                     .replace(mBinding.mFrameContent.id, NotificationFragment())
-                    .commit()
-                false
-            }
-            R.id.mlayanan -> {
-                mSupportFragment
-                    .beginTransaction()
-                    .replace(mBinding.mFrameContent.id, LayananFragment())
                     .commit()
                 false
             }
