@@ -54,7 +54,6 @@
                         android:background="@color/dividerColor" />
 
                     <TextView
-                        android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
@@ -90,7 +89,6 @@
                         android:weightSum="10">
 
                         <TextView
-                            android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
@@ -135,6 +133,7 @@
                         android:layout_height="15dp" />
 
                     <TextView
+                        android:id="@+id/mlupapass"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -156,6 +155,7 @@
                         android:textColor="@color/black" />
 
                     <Button
+                        android:id="@+id/mregist"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
