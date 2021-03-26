@@ -22,14 +22,14 @@
     <item
         android:id="@+id/mchat"
         android:enabled="true"
-        android:title="Akun Saya"
+        android:title="Chat"
         android:icon="@drawable/ic_baseline_chat_24" />
 
     <item
         android:id="@+id/maboutus"
         android:enabled="true"
         android:title="About US"
-        android:icon="@drawable/ic_baseline_supervised_user_circle_24" />
+        android:icon="@drawable/ic_baseline_info_24" />
 
 
 </menu>
