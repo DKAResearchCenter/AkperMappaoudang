@@ -23,6 +23,7 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
         super.onAttachedToWindow()
 
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mBinding = DataBindingUtil.setContentView(this, R.layout.ui_activity_beranda_fragment)
