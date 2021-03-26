@@ -85,6 +85,9 @@
         <activity
             android:name="dka.project.akper.PasswordActivity"
             android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.chat.RoomChatActivity"
+            android:theme="@style/Theme.Bhayangkara" />
 
     </application>
 
