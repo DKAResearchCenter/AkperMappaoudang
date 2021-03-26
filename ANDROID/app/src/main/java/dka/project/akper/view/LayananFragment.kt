@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
-import dka.project.akper.KurikulumActivity
 import dka.project.akper.R
 import dka.project.akper.architecture.RecyclerView.LayananRecyclerView
 import dka.project.akper.databinding.UiActivityBerandaFragmentLayananBinding
@@ -30,11 +29,7 @@ class LayananFragment : Fragment() {
 
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         mbinding = DataBindingUtil.inflate(
             inflater,
@@ -55,46 +50,15 @@ class LayananFragment : Fragment() {
 
             mdata.apply {
                 clear()
-                add(LayananRecyclerView.data(R.drawable.ic_mahasiswa, {
-                    i = Intent(requireActivity(), KemahasiswaanActivity::class.java)
-                    startActivity(i)
-                }, "Kemahasiswaan"))
-                add(LayananRecyclerView.data(R.drawable.ic_jadwal, {
-                    i = Intent(requireActivity(), JadwalActivity::class.java)
-                    startActivity(i)
-                }, "Jadwal"))
-                add(LayananRecyclerView.data(R.drawable.ic_cctv, {
-                    i = Intent(requireActivity(), CCTVActivity::class.java)
-                    startActivity(i)
-                }, "CCTV"))
-                add(LayananRecyclerView.data(R.drawable.ic_lokasi, {
-                    i = Intent(requireActivity(), LokasiActivity::class.java)
-                    startActivity(i)
-                }, "Map"))
-                add(LayananRecyclerView.data(R.drawable.ic_khsonline, {
-                    i = Intent(requireActivity(), KhsActivity::class.java)
-                    startActivity(i)
-                }, "KHS Online"))
-                add(LayananRecyclerView.data(R.drawable.ic_transkip, {
-                    i = Intent(requireActivity(), TranskipActivity::class.java)
-                    startActivity(i)
-                }, "Transkip Nilai"))
-                add(LayananRecyclerView.data(R.drawable.ic_krsonline, {
-                    i = Intent(requireActivity(), KrsActivity::class.java)
-                    startActivity(i)
-                }, "KRS Online"))
-                add(LayananRecyclerView.data(R.drawable.ic_organization, {
-                    i = Intent(requireActivity(), OrganisasiActivity::class.java)
-                    startActivity(i)
-                }, "Organisasi"))
-                add(LayananRecyclerView.data(R.drawable.ic_perpustakaan, {
-                    i = Intent(requireActivity(), PerpustakaanActivity::class.java)
-                    startActivity(i)
-                }, "Perpustakaan"))
-                add(LayananRecyclerView.data(R.drawable.ic_paper, {
-                    i = Intent(requireActivity(), KurikulumActivity::class.java)
-                    startActivity(i)
-                }, "Kurikulum"))
+                add(LayananRecyclerView.data(R.drawable.ic_mahasiswa, KemahasiswaanActivity::class.java, "Kemahasiswaan"))
+                add(LayananRecyclerView.data(R.drawable.ic_jadwal, JadwalActivity::class.java, "Jadwal"))
+                add(LayananRecyclerView.data(R.drawable.ic_cctv, CCTVActivity::class.java, "CCTV"))
+                add(LayananRecyclerView.data(R.drawable.ic_lokasi, LokasiActivity::class.java, "Map"))
+                add(LayananRecyclerView.data(R.drawable.ic_khsonline, KhsActivity::class.java, "KHS Online"))
+                add(LayananRecyclerView.data(R.drawable.ic_transkip, TranskipActivity::class.java, "Transkip Nilai"))
+                add(LayananRecyclerView.data(R.drawable.ic_krsonline, KrsActivity::class.java, "KRS Online"))
+                add(LayananRecyclerView.data(R.drawable.ic_organization, OrganisasiActivity::class.java, "Organisasi"))
+                add(LayananRecyclerView.data(R.drawable.ic_perpustakaan, PerpustakaanActivity::class.java, "Perpustakaan"))
             }
 
         }

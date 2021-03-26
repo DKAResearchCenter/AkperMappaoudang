@@ -20,7 +20,7 @@ class LayananRecyclerView(var context: Context) :
 
     data class data(
         var ikon: Int,
-        var click: View.OnClickListener,
+        var classRedirect: Class<*>,
         var nama: String
     )
 
@@ -48,7 +48,10 @@ class LayananRecyclerView(var context: Context) :
             )
         }
         holder.mbind.mnamalayanan.setText(mdata[position].nama)
-        holder.mbind.mlayanancontainer.setOnClickListener(mdata[position].click)
+        holder.mbind.mlayanancontainer.setOnClickListener {
+            i = Intent(context, mdata[position].classRedirect)
+            context.startActivity(i)
+        }
     }
 
     override fun getItemCount(): Int {
