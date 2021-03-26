@@ -85,14 +85,11 @@ class BerandaFragment : Fragment() {
             it.maboutus.setOnClickListener() {
                 i = Intent(
                     requireActivity(),
-                    R.layout.ui_activity_beranda_fragment_aboutus::class.java
+                    AboutUsActivity::class.java
                 )
                 startActivity(i)
             }
         }
-
-
-
         return mBinding.root
     }
 }
