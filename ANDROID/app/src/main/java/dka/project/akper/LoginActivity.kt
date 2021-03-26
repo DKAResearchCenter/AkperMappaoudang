@@ -27,8 +27,9 @@ class LoginActivity : AppCompatActivity() {
             }
 
             it.mLogin.setOnClickListener() {
-                i = Intent(this, BerandaActivity::class.java)
-                startActivity(i)
+
+               /* i = Intent(this, BerandaActivity::class.java)
+                startActivity(i)*/
             }
         }
     }
