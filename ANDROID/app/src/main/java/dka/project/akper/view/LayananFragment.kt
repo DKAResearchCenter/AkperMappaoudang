@@ -50,15 +50,71 @@ class LayananFragment : Fragment() {
 
             mdata.apply {
                 clear()
-                add(LayananRecyclerView.data(R.drawable.ic_mahasiswa, KemahasiswaanActivity::class.java, "Kemahasiswaan"))
-                add(LayananRecyclerView.data(R.drawable.ic_jadwal, JadwalActivity::class.java, "Jadwal"))
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_mahasiswa,
+                        KemahasiswaanActivity::class.java,
+                        "Kemahasiswaan"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_jadwal,
+                        JadwalActivity::class.java,
+                        "Jadwal"
+                    )
+                )
                 add(LayananRecyclerView.data(R.drawable.ic_cctv, CCTVActivity::class.java, "CCTV"))
-                add(LayananRecyclerView.data(R.drawable.ic_lokasi, LokasiActivity::class.java, "Map"))
-                add(LayananRecyclerView.data(R.drawable.ic_khsonline, KhsActivity::class.java, "KHS Online"))
-                add(LayananRecyclerView.data(R.drawable.ic_transkip, TranskipActivity::class.java, "Transkip Nilai"))
-                add(LayananRecyclerView.data(R.drawable.ic_krsonline, KrsActivity::class.java, "KRS Online"))
-                add(LayananRecyclerView.data(R.drawable.ic_organization, OrganisasiActivity::class.java, "Organisasi"))
-                add(LayananRecyclerView.data(R.drawable.ic_perpustakaan, PerpustakaanActivity::class.java, "Perpustakaan"))
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_lokasi,
+                        LokasiActivity::class.java,
+                        "Map"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_khsonline,
+                        KhsActivity::class.java,
+                        "KHS Online"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_transkip,
+                        TranskipActivity::class.java,
+                        "Transkip Nilai"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_krsonline,
+                        KrsActivity::class.java,
+                        "KRS Online"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_organization,
+                        OrganisasiActivity::class.java,
+                        "Organisasi"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_perpustakaan,
+                        PerpustakaanActivity::class.java,
+                        "Perpustakaan"
+                    )
+                )
+                add(
+                    LayananRecyclerView.data(
+                        R.drawable.ic_paper,
+                        PerpustakaanActivity::class.java,
+                        "Kurikulum"
+                    )
+                )
+
             }
 
         }
