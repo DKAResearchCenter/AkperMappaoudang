@@ -71,7 +71,6 @@
                         app:srcCompat="@drawable/youtube_logo" />
 
                     <ImageView
-                        android:id="@+id/imageView10"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginEnd="10dp"
@@ -80,7 +79,7 @@
                         app:srcCompat="@drawable/whatsapp_logo_1" />
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/mlogin"
+                        android:id="@+id/mregist"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="80dp"
@@ -88,6 +87,7 @@
                         android:layout_marginTop="3dp"
                         android:layout_marginBottom="3dp"
                         android:layout_weight="5"
+                        android:visibility="gone"
                         app:cardBackgroundColor="@color/secondarycolor"
                         app:cardCornerRadius="10dp">
 
@@ -97,10 +97,20 @@
                             android:layout_gravity="center"
                             android:paddingLeft="10dp"
                             android:paddingRight="10dp"
-                            android:text="LOGIN"
+                            android:text="Sign Up"
                             android:textColor="@color/white"
-                            android:textSize="10sp" />
+                            android:textSize="8sp" />
                     </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:id="@+id/maccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginLeft="100dp"
+                        android:tint="@color/secondarycolor"
+                        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
 
                 </LinearLayout>
 
