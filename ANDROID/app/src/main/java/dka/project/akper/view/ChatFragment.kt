@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import dka.project.akper.ChatKontakActivity
+import dka.project.akper.chat.RoomChatActivity
 import dka.project.akper.databinding.UiActivityBerandaFragmentChatBinding
 
 class ChatFragment : Fragment() {
@@ -24,6 +25,10 @@ class ChatFragment : Fragment() {
         mbinding.let {
             it.mkontak.setOnClickListener() {
                 i = Intent(requireActivity(), ChatKontakActivity::class.java)
+                startActivity(i)
+            }
+            it.mtoroomchat.setOnClickListener() {
+                i = Intent(requireActivity(), RoomChatActivity::class.java)
                 startActivity(i)
             }
         }
