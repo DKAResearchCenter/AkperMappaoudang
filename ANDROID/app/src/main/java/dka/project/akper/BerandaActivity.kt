@@ -38,6 +38,13 @@ class BerandaActivity : AppCompatActivity(), BottomNavigationView.OnNavigationIt
 
         mBinding.mBottom.setOnNavigationItemSelectedListener(this)
 
+        mBinding.fab.setOnClickListener {
+            mSupportFragment
+                .beginTransaction()
+                .replace(mBinding.mFrameContent.id, LayananFragment())
+                .commit()
+        }
+
         mSupportFragment.beginTransaction().replace(mBinding.mFrameContent.id, BerandaFragment()).commit()
     }
 
