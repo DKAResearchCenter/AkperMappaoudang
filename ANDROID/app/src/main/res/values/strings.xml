@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Bhayangkara</string>
+    <string name="app_protocol">http://</string>
+    <string name="app_host">c282eb784ae4.ngrok.io</string>
+    <string name="app_port">80</string>
 </resources>

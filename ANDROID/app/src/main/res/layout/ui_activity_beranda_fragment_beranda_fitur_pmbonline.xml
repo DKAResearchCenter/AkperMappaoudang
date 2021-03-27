@@ -7,10 +7,16 @@
         android:layout_height="match_parent"
         android:background="@color/primarycolor">
 
+        <WebView
+            android:id="@+id/mWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <RelativeLayout
             android:id="@+id/mBackground"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:background="@drawable/cardview1">
 
             <LinearLayout
