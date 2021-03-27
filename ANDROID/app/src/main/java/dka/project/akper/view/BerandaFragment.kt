@@ -77,12 +77,19 @@ class BerandaFragment : Fragment() {
             }
             it.maboutus.setOnClickListener() {
                 i = Intent(
-                    requireActivity(),
-                    AboutUsActivity::class.java
+                        requireActivity(),
+                        AboutUsActivity::class.java
                 )
                 startActivity(i)
             }
         }
+
+        mBinding.videoView.let {
+            it.setVideoPath("https://drive.google.com/file/d/1bL9URpRVztjttOEFo3V13MBL6801TEIx/view?usp=sharing")
+            it.start()
+        }
+
         return mBinding.root
+
     }
 }
