@@ -86,6 +86,9 @@
             android:name="dka.project.akper.layanan.FasilitasActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
+            android:name="dka.project.akper.layanan.KurikulumActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
             android:name="dka.project.akper.LoginActivity"
             android:theme="@style/Theme.Bhayangkara" />
         <activity
@@ -96,6 +99,9 @@
             android:theme="@style/Theme.Bhayangkara" />
         <activity
             android:name="dka.project.akper.chat.RoomChatActivity"
+            android:theme="@style/Theme.Bhayangkara" />
+        <activity
+            android:name="dka.project.akper.AlbumKegiatanActivity"
             android:theme="@style/Theme.Bhayangkara" />
 
     </application>

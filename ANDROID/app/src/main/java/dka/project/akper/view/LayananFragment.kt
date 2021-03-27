@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.pixplicity.easyprefs.library.Prefs
 import dka.project.akper.ApplicationController
-import dka.project.akper.KurikulumActivity
 import dka.project.akper.R
 import dka.project.akper.architecture.RecyclerView.LayananRecyclerView
 import dka.project.akper.databinding.UiActivityBerandaFragmentLayananBinding

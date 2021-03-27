@@ -600,6 +600,7 @@
                             android:layout_height="10dp" />
 
                         <LinearLayout
+                            android:id="@+id/malbumkegiatan"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="10dp"
@@ -724,7 +725,7 @@
                                     android:layout_marginTop="10dp"
                                     android:text="VIDEO"
                                     android:textColor="@color/black"
-                                    android:textSize="12sp"
+                                    android:textSize="18sp"
                                     android:textStyle="bold" />
 
                                 <TextView

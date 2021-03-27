@@ -82,6 +82,10 @@ class BerandaFragment : Fragment() {
                 )
                 startActivity(i)
             }
+            it.malbumkegiatan.setOnClickListener() {
+                i = Intent(requireActivity(), AlbumKegiatanActivity::class.java)
+                startActivity(i)
+            }
         }
 
         mBinding.videoView.let {
