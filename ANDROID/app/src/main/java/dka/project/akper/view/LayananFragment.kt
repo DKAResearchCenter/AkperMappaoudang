@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import com.pixplicity.easyprefs.library.Prefs
+import dka.project.akper.ApplicationController
 import dka.project.akper.KurikulumActivity
 import dka.project.akper.R
 import dka.project.akper.architecture.RecyclerView.LayananRecyclerView
@@ -51,57 +53,58 @@ class LayananFragment : Fragment() {
 
             mdata.apply {
                 clear()
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_mahasiswa,
-                        KemahasiswaanActivity::class.java,
-                        "Kemahasiswaan" // Untuk Orang Tua, Pegawai
+                /** Mengambil Data AUth Level Login **/
+                val AuthLevel = Prefs.getString(ApplicationController.AUTH_LEVEL_ACCESS, ApplicationController.AUTH_LEVEL_ANONYMOUS)
+
+                /** Mengambil Data AUth Level Login **/
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_ORANGTUA || AuthLevel == ApplicationController.AUTH_LEVEL_PEGAWAI){
+                    add(
+                            LayananRecyclerView.data(
+                                    R.drawable.ic_mahasiswa,
+                                    KemahasiswaanActivity::class.java,
+                                    "Kemahasiswaan" // Untuk Orang Tua, Pegawai
+                            )
                     )
-                )
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_jadwal,
-                        JadwalActivity::class.java,
-                        "Jadwal" // Untuk Orang Tua, Pegawai, Mahasiswa
+                }
+
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_ORANGTUA || AuthLevel == ApplicationController.AUTH_LEVEL_PEGAWAI || AuthLevel == ApplicationController.AUTH_LEVEL_MAHASISWA) {
+                    add(
+                            LayananRecyclerView.data(
+                                    R.drawable.ic_jadwal,
+                                    JadwalActivity::class.java,
+                                    "Jadwal" // Untuk Orang Tua, Pegawai, Mahasiswa
+                            )
                     )
-                )
+                }
+
+
                 add(LayananRecyclerView.data(R.drawable.ic_cctv, CCTVActivity::class.java, "CCTV"))
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_lokasi,
-                        LokasiActivity::class.java,
-                        "Map" // Untuk orangtua, Pegawai
+
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_ORANGTUA || AuthLevel == ApplicationController.AUTH_LEVEL_PEGAWAI) {
+                    add(
+                            LayananRecyclerView.data(
+                                    R.drawable.ic_lokasi,
+                                    LokasiActivity::class.java,
+                                    "Map" // Untuk orangtua, Pegawai
+                            )
                     )
-                )
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_khsonline,
-                        KhsActivity::class.java,
-                        "KHS Online" // untuk Mahasiswa
-                    )
-                )
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_transkip,
-                        TranskipActivity::class.java,
-                        "Transkip Nilai" // untuk mahasiswa, orangtua, pegawai
-                    )
-                )
-                // U
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_krsonline,
-                        KrsActivity::class.java,
-                        "KRS Online" // untuk mahasiswa
-                    )
-                )
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_organization,
-                        OrganisasiActivity::class.java,
-                        "Organisasi" // untuk semua
-                    )
-                )
+                }
+
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_MAHASISWA) {
+                    add(LayananRecyclerView.data(R.drawable.ic_khsonline, KhsActivity::class.java, "KHS Online"))
+                }
+
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_ORANGTUA || AuthLevel == ApplicationController.AUTH_LEVEL_PEGAWAI || AuthLevel == ApplicationController.AUTH_LEVEL_MAHASISWA) {
+                    add(LayananRecyclerView.data(R.drawable.ic_transkip, TranskipActivity::class.java, "Transkip Nilai"
+                            /** untuk mahasiswa, orangtua, pegawai **/))
+                }
+
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_MAHASISWA) {
+                    add(LayananRecyclerView.data(R.drawable.ic_krsonline, KrsActivity::class.java, "KRS Online"))
+                }
+
+                add(LayananRecyclerView.data(R.drawable.ic_organization, OrganisasiActivity::class.java, "Organisasi"))
+
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_perpustakaan,
@@ -116,13 +119,16 @@ class LayananFragment : Fragment() {
                         "Kurikulum" // untuk semua
                     )
                 )
-                add(
-                    LayananRecyclerView.data(
-                        R.drawable.ic_tv,
-                        ElektronikActivity::class.java,
-                        "Elektronik" // untuk pegawai
+                if (AuthLevel == ApplicationController.AUTH_LEVEL_PEGAWAI) {
+                    add(
+                            LayananRecyclerView.data(
+                                    R.drawable.ic_tv,
+                                    ElektronikActivity::class.java,
+                                    "Elektronik" // untuk pegawai
+                            )
                     )
-                )
+                }
+
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_laboratory,
@@ -130,6 +136,7 @@ class LayananFragment : Fragment() {
                         "Laboratorium" // untuk semua
                     )
                 )
+
                 add(
                     LayananRecyclerView.data(
                         R.drawable.ic_management,

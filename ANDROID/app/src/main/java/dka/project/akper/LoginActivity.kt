@@ -23,10 +23,11 @@ class LoginActivity : AppCompatActivity() {
 
         mbinding.let {
             it.mLoginWithoutLogin.setOnClickListener() {
-                Prefs.putBoolean(ApplicationController.AUTH_STATE, false)
-                Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, "anonim")
-                i = Intent(this, BerandaActivity::class.java)
 
+                Prefs.putBoolean(ApplicationController.AUTH_STATE, true)
+                Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, ApplicationController.AUTH_LEVEL_ANONYMOUS)
+
+                i = Intent(this, BerandaActivity::class.java)
                 startActivity(i)
             }
             it.mlupapass.setOnClickListener() {
@@ -40,21 +41,23 @@ class LoginActivity : AppCompatActivity() {
 
                 when {
                     mbinding.mUserName.text.toString() == "2021" && mbinding.mPassword.text.toString() == "mahasiswa" -> {
+
                         Prefs.putBoolean(ApplicationController.AUTH_STATE, true)
-                        Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, "mahasiswa")
-                        i.putExtra("levelaccess","mahasiswa")
+                        Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, ApplicationController.AUTH_LEVEL_MAHASISWA)
+
                         startActivity(i)
                     }
                     mbinding.mUserName.text.toString() == "2021" && mbinding.mPassword.text.toString() == "orangtua" -> {
+
                         Prefs.putBoolean(ApplicationController.AUTH_STATE, true)
-                        Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, "orangtua")
-                        i.putExtra("levelaccess","orangtua")
+                        Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, ApplicationController.AUTH_LEVEL_ORANGTUA)
+
                         startActivity(i)
                     }
                     mbinding.mUserName.text.toString() == "2021" && mbinding.mPassword.text.toString() == "pegawai" -> {
                         Prefs.putBoolean(ApplicationController.AUTH_STATE, true)
-                        Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, "pegawai")
-                        i.putExtra("levelaccess","pegawai")
+                        Prefs.putString(ApplicationController.AUTH_LEVEL_ACCESS, ApplicationController.AUTH_LEVEL_PEGAWAI)
+
                         startActivity(i)
                     }
                     else -> {

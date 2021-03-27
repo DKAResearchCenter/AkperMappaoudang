@@ -10,6 +10,12 @@ class ApplicationController : Application() {
     companion object {
         const val AUTH_STATE = "AuthState"
         const val AUTH_LEVEL_ACCESS = "AuthLevelAccess"
+
+        const val AUTH_LEVEL_ANONYMOUS = "AuthAnonym"
+        const val AUTH_LEVEL_ORANGTUA = "AuthLevelOrangTua"
+        const val AUTH_LEVEL_PEGAWAI = "AUthLevelPegawai"
+        const val AUTH_LEVEL_MAHASISWA = "AuthLevelMahasiswa"
+
     }
 
     override fun onCreate() {
