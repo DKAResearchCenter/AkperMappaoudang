@@ -15,6 +15,13 @@ class PMBOnlineActivity : AppCompatActivity() {
             this,
             R.layout.ui_activity_beranda_fragment_beranda_fitur_pmbonline
         )
+
+        mbinding.mWebView.apply {
+            loadUrl(resources.getString(R.string.app_protocol) + resources.getString(R.string.app_host) + '/' + "mahasiswamendaftar")
+            settings.apply {
+                javaScriptEnabled = true
+            }
+        }
     }
 
 }
