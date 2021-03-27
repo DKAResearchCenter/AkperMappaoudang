@@ -713,11 +713,27 @@
                                 android:layout_margin="15dp"
                                 android:orientation="vertical">
 
-                                <VideoView
-                                    android:id="@+id/videoView"
+                                <FrameLayout
+                                    android:id="@+id/video_layout"
                                     android:layout_width="match_parent"
                                     android:layout_height="250dp"
-                                    android:layout_gravity="center" />
+                                    android:background="@android:color/black">
+
+                                    <com.universalvideoview.UniversalVideoView
+                                        android:id="@+id/videoView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        app:uvv_autoRotation="true"
+                                        app:uvv_fitXY="false" />
+
+                                    <com.universalvideoview.UniversalMediaController
+                                        android:id="@+id/media_controller"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        app:uvv_scalable="true" />
+
+                                </FrameLayout>
 
                                 <TextView
                                     android:layout_width="match_parent"
