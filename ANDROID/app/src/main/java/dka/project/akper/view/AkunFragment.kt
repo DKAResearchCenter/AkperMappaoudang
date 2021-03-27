@@ -16,8 +16,10 @@ class AkunFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         mbinding = UiActivityBerandaFragmentAkunBinding.inflate(inflater, container, false)
 
-
-
+        mbinding.mLogout.setOnClickListener {
+            Prefs.putBoolean(ApplicationController.AUTH_STATE, false)
+            requireActivity().finish()
+        }
         return mbinding.root
     }
 }
