@@ -65,7 +65,7 @@ Lihat [Contributing](https://dkaresearchcenter.com/org/contributing/).
 
 ## Team
 
-[@yovangga](https://github.com/yovanggaanandhika) | [@diwan29](https://github.com/Ridwan29) | [@froggie-tech](https://github.com/froggie-tech)
+[@yovangga](https://github.com/yovanggaanandhika) | [@diwan29](https://github.com/Diwan29) | [@froggie-tech](https://github.com/froggie-tech)
 --- | --- | --- 
 <img align="center" src="https://avatars.githubusercontent.com/yovanggaanandhika?s=100&v=1" width="100" height="100" /> | <img align="center" src="https://avatars.githubusercontent.com/diwan29?s=100&v=1" width="100" height="100"> | <img align="center" src="https://avatars.githubusercontent.com/froggie-tech?s" width="100" height="100">
 Full Stack Development | The Half Programming | The Half Programming
